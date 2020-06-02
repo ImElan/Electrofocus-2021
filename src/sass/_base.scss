@@ -1,0 +1,44 @@
+// ========> Variables <========
+$color-primary:#6989F9;
+$color-secondary:#6989F9;
+
+$color-grey-light-1 : #F7F7F7;
+$color-grey-light-2 : #EEEEEE;
+$color-grey-dark : #333333;
+$color-grey-dark-2 : #999999;
+
+$color-white : #FFFFFF;
+$color-dark : #000000;
+
+// =======> Fonts <=========
+$font-primary:'Lato',sans-serif;
+$font-display:'Josefin Sans',sans-serif;
+
+*,
+*::after,
+*::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html {
+      font-size: 62.5%;
+}
+
+body {
+      font-family: $font-primary;
+      font-weight: 400;
+      color: $color-grey-dark-2;
+      line-height: 1.6;
+}
+
+.container {
+      display:grid;
+      grid-template-rows: 80vh repeat(8,min-content);
+      grid-template-columns:[full-start] minmax(6rem,1fr) [center-start] repeat(8,[col-start] minmax(min-content,14rem) [col-end]) [center-end] minmax(6rem,1fr) [full-end];
+
+      & > * {
+            padding: 40px;
+      }
+}
