@@ -7,11 +7,32 @@
 
       &__content {
             grid-column: 1 / span 1;
-            background-color:aquamarine;
+            display: grid;
+            grid-template-rows: repeat(3,min-content);
+            grid-template-columns: minmax(50rem,max-content);
+            row-gap: 2rem;
+            padding: 6rem;
+            justify-content: center;
+            align-content: center;
+
+            &--btn {
+                  border-radius: 4px;
+                  align-self: start;
+                  justify-self: start;
+
+                  &_secondary {
+                        background-color: $color-secondary;
+                        transition: all 0.2s;
+      
+                        &:hover {
+                              background-color: $color-secondary-dark;
+                        }
+                  }
+            }
       }
 
       &__image {
             grid-column: 2 / span 1;
-            background-color: bisque;
+            align-self: center;
       }
 }
