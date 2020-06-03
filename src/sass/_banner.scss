@@ -1,4 +1,44 @@
 .banner {
-      background-color: burlywood;
+      background-color:$color-primary;
       grid-column: full-start/full-end;
+
+      display: grid;
+      grid-template-rows: 40rem;
+      grid-template-columns: repeat(2,1fr);
+      align-items: center;
+      justify-items: center;
+      padding: 5rem;
+      margin: 6rem 0;
+
+      &__image {
+            grid-column: 1 / span 1;
+
+            &--img {
+                width: 40rem;
+                height: 40rem;
+            }
+      }
+
+      &__content {
+            display: grid;
+            row-gap: 6rem;
+
+            &--date {
+                  display: grid;
+                  row-gap: 1rem;
+                  justify-items: center;
+                  padding: 2rem;
+            }
+
+            &--location {
+                  display: grid;
+                  row-gap: 1rem;
+                  justify-items: center;
+                  padding: 2rem;
+            }
+
+            & .heading--2 {
+                  text-transform: uppercase;
+            }
+      }
 }

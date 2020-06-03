@@ -6,8 +6,29 @@
 .heading--1 {
       @extend %heading;
       font-size: 5rem;
-      color: $color-grey-dark;
       line-height: 1;
+
+      &-dark {
+            color: $color-grey-dark;
+      }
+
+      &-light {
+            color: $color-secondary;
+      }
+}
+
+.heading--2 {
+      @extend %heading;
+      font-size: 3rem;
+      line-height: 1;
+      
+      &-dark {
+            color: $color-grey-dark;
+      }
+
+      &-light {
+            color: $color-white;
+      }
 }
 
 .heading--3 {
@@ -21,10 +42,17 @@
       @extend %heading;
       font-size: 2rem;
       line-height: 1.2;
-      color: $color-primary;
+
+      &-dark {
+            color: $color-primary;
+      }
+
+      &-light {
+            color: $color-white;
+      }
 }
 
-.btn {
+.btn,.btn:active,.btn:focus {
       font-size: 2rem;
       border: none;
       outline: none;

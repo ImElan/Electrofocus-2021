@@ -9,7 +9,7 @@ class FeatureBox extends Component {
                         <svg class="feature__box--icon">
                               <use xlinkHref={`${sprite}#${icon}`} />
                         </svg>
-                        <h4 className='feature__box--title heading--4'>{feature}</h4>
+                        <h4 className='feature__box--title heading--4 heading--4-dark'>{feature}</h4>
                         <p className='feature__box--details'>{details}</p>
                   </section>
             )

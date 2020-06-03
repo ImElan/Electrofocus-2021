@@ -13,7 +13,7 @@ class Header extends Component {
                   <section className='header'>
                         <Navbar />
                         <div className='header__content'>
-                              <h1 className='heading--1'>{title}</h1>
+                              <h1 className='heading--1 heading--1-dark'>{title}</h1>
                               <h3 className='heading--3'>{content}</h3>
                               <button className='btn header__content--btn header__content--btn_secondary'>Register Now</button>
                         </div>
