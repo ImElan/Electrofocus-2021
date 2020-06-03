@@ -34,10 +34,10 @@ class Events extends Component {
                               <button className='btn events__content--btn events__content--btn_secondary'>Explore Events</button>
                         </div>
                         <div className='events__list events__list--technical'>
-                              {techEvents.map( event => <EventBox event={event} side='left'/>)}
+                              {techEvents.map( event => <EventBox event={event} key={event} side='left'/>)}
                         </div>
                         <div className='events__list events__list--nonTechnical'>
-                              {nonTechEvents.map( event => <EventBox event={event} side='right'/>)}
+                              {nonTechEvents.map( event => <EventBox event={event} key={event} side='right'/>)}
                         </div>
                   </section>
             )

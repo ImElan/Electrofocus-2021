@@ -22,8 +22,8 @@ class Sponsors extends Component {
                   <section className='sponsors'>
                         <h1 className='sponsors__heading heading--1 heading--1-dark'>Our Sponsors</h1>
                         <div className='sponsors__track'>
-                              {sponsors.map( sponsor => <IndividualSponsor sponsorLogo={sponsor}/>)}
-                              {sponsors.map( sponsor => <IndividualSponsor sponsorLogo={sponsor}/>)}
+                              {sponsors.map( (sponsor,index) => <IndividualSponsor sponsorLogo={sponsor} key={index}/>)}
+                              {sponsors.map( (sponsor,index) => <IndividualSponsor sponsorLogo={sponsor} key={index}/>)}
                         </div>
                   </section>
             )

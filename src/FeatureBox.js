@@ -6,7 +6,7 @@ class FeatureBox extends Component {
             const {icon,feature,details} = this.props;
             return(
                   <section className='feature__box'>
-                        <svg class="feature__box--icon">
+                        <svg className="feature__box--icon">
                               <use xlinkHref={`${sprite}#${icon}`} />
                         </svg>
                         <h4 className='feature__box--title heading--4 heading--4-dark'>{feature}</h4>
