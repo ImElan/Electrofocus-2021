@@ -17,10 +17,18 @@
       color: $color-grey-dark-2;
 }
 
+.heading--4 {
+      @extend %heading;
+      font-size: 2rem;
+      line-height: 1.2;
+      color: $color-primary;
+}
+
 .btn {
       font-size: 2rem;
       border: none;
       outline: none;
+      font-family: $font-display;
       padding: 1.5rem 4rem;
       cursor: pointer;
       color: $color-white;

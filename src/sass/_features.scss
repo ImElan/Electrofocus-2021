@@ -1,4 +1,47 @@
 .features {
-      background-color: coral;
       grid-column: center-start/center-end;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+      margin: 10rem 0;
+      grid-gap: 6rem;
+}
+
+.feature__box {
+      display: grid;
+      grid-template-columns: min-content 1fr;
+      grid-row-gap: 1rem;
+      grid-column-gap: 2.5rem;
+      cursor: pointer;
+      padding: 2rem;
+      transition: all 0.2s;
+
+      &--icon {
+            fill: $color-grey-dark;
+            height: 5rem;
+            width: 5rem;
+            align-self: center;
+            transform: translateY(-1rem);
+            transition: all 0.2s;
+      }
+
+      &--title {
+            align-self: center;
+      }
+
+      &--details {
+            grid-column: 2 / span 1;
+            font-size: 1.7rem;
+            color: $color-grey-dark-3;
+            align-self: start;
+      }
+
+      &:hover{
+            box-shadow: 0 1rem 2rem rgba($color: #000000, $alpha: 0.2);
+            border-radius: 4px;
+
+            & .feature__box--icon {
+                  transform: translateY(-1rem) scale(1.2);
+                  fill: $color-primary;
+            }
+      }
 }

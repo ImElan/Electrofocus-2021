@@ -18,7 +18,7 @@ class Header extends Component {
                               <button className='btn header__content--btn header__content--btn_secondary'>Register Now</button>
                         </div>
                         <div className='header__image'>
-                              <img className='header__image--robot' src={robot}></img>
+                              <img className='header__image--robot' src={robot} alt='Robot'></img>
                         </div>
                   </section>
             )
