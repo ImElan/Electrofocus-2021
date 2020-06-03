@@ -40,7 +40,7 @@ class Features extends Component {
             const {features} = this.props;
             return(
                   <section className='features'>
-                        {features.map( featureBox => <FeatureBox {...featureBox}/>)}
+                        {features.map( featureBox => <FeatureBox {...featureBox} key={featureBox.icon}/>)}
                   </section>
             )
       }
