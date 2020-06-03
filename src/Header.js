@@ -1,10 +1,17 @@
 import React,{Component} from 'react';
+import Navbar from './Navbar';
 
 class Header extends Component {
       render() {
             return(
                   <section className='header'>
-                        Header
+                        <Navbar />
+                        <div className='header__content'>
+                              Header Content
+                        </div>
+                        <div className='header__image'>
+                              Header Image
+                        </div>
                   </section>
             )
       }

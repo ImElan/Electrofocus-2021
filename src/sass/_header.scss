@@ -1,4 +1,17 @@
 .header {
-      background-color: paleturquoise;
       grid-column: full-start/full-end;
+
+      display: grid;
+      grid-template-rows: 8rem 1fr;
+      grid-template-columns: 6fr 4fr;
+
+      &__content {
+            grid-column: 1 / span 1;
+            background-color:aquamarine;
+      }
+
+      &__image {
+            grid-column: 2 / span 1;
+            background-color: bisque;
+      }
 }

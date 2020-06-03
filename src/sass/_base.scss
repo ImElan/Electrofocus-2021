@@ -1,6 +1,6 @@
 // ========> Variables <========
-$color-primary:#6989F9;
-$color-secondary:#6989F9;
+$color-primary:#1A64B5;
+$color-secondary:#EC4357;
 
 $color-grey-light-1 : #F7F7F7;
 $color-grey-light-2 : #EEEEEE;
@@ -37,8 +37,4 @@ body {
       display:grid;
       grid-template-rows: 80vh repeat(8,min-content);
       grid-template-columns:[full-start] minmax(6rem,1fr) [center-start] repeat(8,[col-start] minmax(min-content,14rem) [col-end]) [center-end] minmax(6rem,1fr) [full-end];
-
-      & > * {
-            padding: 40px;
-      }
 }
