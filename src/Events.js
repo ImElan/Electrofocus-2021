@@ -4,7 +4,7 @@ import EventBox from './EventBox';
 class Events extends Component {
       static defaultProps = {
             title:'20+ Events Spanning 4 Domains',
-            subTitle:'Quidem consequatur harum, voluptatum mollitia quae. Tenetur distinctio necessitatibus pariatur voluptatibus.',
+            subTitle:'If you want to showcase your talent this symposium is one of the best platforms for all the aspiring engineers out there.We\'ve got you covered.',
             techEvents:[
                   'C Struct',
                   'Circuitology',
