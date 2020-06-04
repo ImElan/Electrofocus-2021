@@ -39,9 +39,12 @@ class Features extends Component {
       render() {
             const {features} = this.props;
             return(
-                  <section className='features'>
-                        {features.map( featureBox => <FeatureBox {...featureBox} key={featureBox.icon}/>)}
-                  </section>
+                  <div className='features__container'>
+                        <h1 className='features__heading heading--1 heading--1-dark'>Why ElectroFocus ?</h1>
+                        <section className='features'>
+                              {features.map( featureBox => <FeatureBox {...featureBox} key={featureBox.icon}/>)}
+                        </section>
+                  </div>
             )
       }
 }

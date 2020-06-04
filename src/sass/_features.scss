@@ -10,6 +10,10 @@
             grid-column: center-start/center-end;
             text-align: center;
       }
+
+      &__container {
+            grid-column: center-start/center-end;
+      }
 }
 
 .feature__box {
