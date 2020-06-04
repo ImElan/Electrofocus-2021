@@ -22,8 +22,8 @@ function App() {
             <WorkShops />
             <Sponsors />
             <Events />
-            <FeedBacks />
             <FrequentlyAskedQuestions />
+            <FeedBacks />
             <Footer />
       </div>
   );
