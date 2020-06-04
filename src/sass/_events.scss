@@ -51,15 +51,26 @@
       }
 
       &__eventBox {
+            display: grid;
+            column-gap: 4rem;
+            grid-template-columns: min-content 1fr;
             padding: 2rem 7rem;
             background-color: #00367F;
             text-align: center;
             border-radius: 4px;
+            align-items: center;
             
+            &--icon {
+                  width: 4.5rem;
+                  height: 4.5rem;
+                  fill: #B1DDFF;
+            }
+
             &--name {
                   color: $color-white;
                   font-family: $font-primary;
                   font-size: 1.7rem;
+                  justify-self: start;
             }
       }
 }

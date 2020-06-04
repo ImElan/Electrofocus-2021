@@ -6,22 +6,64 @@ class Events extends Component {
             title:'20+ Events Spanning 4 Domains',
             subTitle:'If you want to showcase your talent this symposium is one of the best platforms for all the aspiring engineers out there.We\'ve got you covered.',
             techEvents:[
-                  'C Struct',
-                  'Circuitology',
-                  'Binary Battle',
-                  'Work The Network',
-                  'CrypTech',
-                  'Liaise The Link',
-                  'Line Follower'
+                  {
+                        name:'C Struct',
+                        icon:'code'
+                  },
+                  {
+                        name:'Circuitology',
+                        icon:'circuit'
+                  },
+                  {
+                        name:'Binary Battle',
+                        icon:'code-1'
+                  },
+                  {
+                        name:'Work The Network',
+                        icon:'router'
+                  },
+                  {
+                        name:'CrypTech',
+                        icon:'cryptography'
+                  },
+                  {
+                        name:'Liaise The Link',
+                        icon:'wifi'
+                  },
+                  {
+                        name:'Line Follower',
+                        icon:'robot'
+                  },
             ],
             nonTechEvents:[
-                  'Mock IPL Bidding',
-                  'Ship Wreck',
-                  'Voice Over',
-                  'Just A Minute',
-                  'Fifa',
-                  'Rubik\'s Cube',
-                  'Math Maverick'
+                  {
+                        name:'Mock IPL Bidding',
+                        icon:'cultures'
+                  },
+                  {
+                        name:'Ship Wreck',
+                        icon:'actor'
+                  },
+                  {
+                        name:'Voice Over',
+                        icon:'studio'
+                  },
+                  {
+                        name:'Just A Minute',
+                        icon:'music-and-multimedia'
+                  },
+                  {
+                        name:'Fifa',
+                        icon:'games'
+                  },
+                  {
+                        name:'Rubik\'s Cube',
+                        icon:'rubik'
+                  },
+                  {
+                        name:'Math Maverick',
+                        icon:'abacus'
+                  },
             ]
       }
       render() {
@@ -34,10 +76,22 @@ class Events extends Component {
                               <button className='btn events__content--btn events__content--btn_secondary'>Explore Events</button>
                         </div>
                         <div className='events__list events__list--technical'>
-                              {techEvents.map( event => <EventBox event={event} key={event} side='left'/>)}
+                              {techEvents.map( event => (
+                                          <EventBox 
+                                                icon={event.icon}
+                                                event={event.name} 
+                                                key={event} 
+                                                side='left'/>)
+                                          )}
                         </div>
                         <div className='events__list events__list--nonTechnical'>
-                              {nonTechEvents.map( event => <EventBox event={event} key={event} side='right'/>)}
+                              {nonTechEvents.map( event => 
+                                          (<EventBox 
+                                                icon={event.icon}
+                                                event={event.name} 
+                                                key={event} 
+                                                side='right'/>)
+                                          )}
                         </div>
                   </section>
             )

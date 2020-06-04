@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import eventSprite from './assets/events_sprite.svg'; 
 
 class EventBox extends Component {
       render() {
@@ -9,9 +10,12 @@ class EventBox extends Component {
             } else {
                   style = { borderRight: '5px solid #A8D4FF'}
             }
-            const {event} = this.props;
+            const {event,icon} = this.props;
             return(
-                  <div className='events__eventBox'style={style}>
+                  <div className='events__eventBox' style={style}>
+                        <svg className='events__eventBox--icon'>
+                              <use xlinkHref={`${eventSprite}#${icon}`}/>
+                        </svg>
                         <p className='events__eventBox--name'>{event}</p>
                   </div>
             )
