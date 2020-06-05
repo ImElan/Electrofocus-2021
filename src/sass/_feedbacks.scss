@@ -105,14 +105,17 @@
       }
 
       &__button {
-            border: none;
-            background-color: $color-primary-dark;
-            padding: 1.5rem;
-            border-radius: 50%;
-            cursor: pointer;
-            margin: 0 0.6rem;
-            box-shadow: 0 0.3rem 0.9rem 0 rgba($color: $color-black, $alpha: 0.35);   
-            transition: all 0.25s;
+            &,&:active,&:focus {
+                  border: none;
+                  outline: none;
+                  background-color: $color-primary-dark;
+                  padding: 1.5rem;
+                  border-radius: 50%;
+                  cursor: pointer;
+                  margin: 0 0.6rem;
+                  box-shadow: 0 0.3rem 0.9rem 0 rgba($color: $color-black, $alpha: 0.35);   
+                  transition: all 0.25s;
+            }
             
             &:hover {
                   transform: translateY(-1rem);
