@@ -80,7 +80,7 @@ class Events extends Component {
                                           <EventBox 
                                                 icon={event.icon}
                                                 event={event.name} 
-                                                key={event} 
+                                                key={event.name} 
                                                 side='left'/>)
                                           )}
                         </div>
@@ -89,7 +89,7 @@ class Events extends Component {
                                           (<EventBox 
                                                 icon={event.icon}
                                                 event={event.name} 
-                                                key={event} 
+                                                key={event.name} 
                                                 side='right'/>)
                                           )}
                         </div>
