@@ -7,16 +7,13 @@ class WorkShopCard extends Component {
             return(
                   <div className='workshopCard'>
                         <img className='workshopCard__image' src={image} alt={name} />
-                        <div className='workshopCard__titleContainer'>
-                              <h4 className='workshopCard__titleContainer--title'>{name}</h4>
-                        </div>
+                        <h4 className='workshopCard__title'>{name}</h4>
                         <p className='workshopCard__details'>{details}</p>
-                        <div className='workshopCard__infos'>
-                              <WorkShopCardDetails info={date} icon='calender' />
-                              <WorkShopCardDetails info={time} icon='clock' />
-                              <WorkShopCardDetails info={price} icon='rupee' />
-                              <WorkShopCardDetails info={venue} icon='map' />
-                        </div>
+                        <WorkShopCardDetails info={date} icon='calendar' />
+                        <WorkShopCardDetails info={time} icon='clock' />
+                        <WorkShopCardDetails info={price} icon='rupee-indian' />
+                        <WorkShopCardDetails info={venue} icon='pin' />
+                        <button className='workshopCard__button'>More Details</button>
                   </div>
             )
       }
