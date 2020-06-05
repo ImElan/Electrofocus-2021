@@ -1,23 +1,33 @@
 import React,{Component} from 'react'
-import feedbackSprite from './assets/feedback_sprite.svg';
+import FeedbackDetails from './FeedbackDetails';
+import arrowSprite from './assets/arrow_sprite.svg';
 
 class FeedbackBox extends Component {
       render() {
             return(
-                  <li className='feedbacks__carouselSlide'>
-                        <p className='feedbacks__carouselSlide-review'>
-                              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Voluptatum mollitia quae. Vero ipsum sapiente molestias accusamus rerum sed a eligendi aut quia.
-                        </p>
-                        <div className='feedbacks__carouselSlide-info'>
-                              <svg className='feedbacks__carouselSlide-image'>
-                                    <use xlinkHref={`${feedbackSprite}#man`}/>
-                              </svg>
-                              <div className='feedbacks__carouselSlide-details'>
-                                  <p className='feedbacks__carouselSlide-name'>Name</p>  
-                                  <p className='feedbacks__carouselSlide-college'>College</p>  
+                  <div className='feedbacks__content'>
+                              <h4 className='heading--4 heading--4-dark text-center'>Testimonials</h4>
+                              <h1 className='heading--1 heading--1-dark text-center'>Our Clients Love Us</h1>
+                              <div className='feedbacks__carousel'>
+                                    <div className='feedbacks__carouselContainer'>
+                                          <ul className='feedbacks__carouselTrack'>
+                                                <FeedbackDetails />
+                                          </ul>
+                                    </div>
+                              </div>
+                              <div className='feedbacks__buttons'>      
+                                    <button className='feedbacks__button feedbacks__button--left'>
+                                          <svg className='feedbacks__button--img'>
+                                                <use xlinkHref={`${arrowSprite}#left`}/>
+                                          </svg>
+                                    </button>
+                                    <button className='feedbacks__button feedbacks__button--right'>
+                                          <svg className='feedbacks__button--img'>
+                                                <use xlinkHref={`${arrowSprite}#right`}/>
+                                          </svg>
+                                    </button>
                               </div>
                         </div>
-                  </li>
             ) 
       }
 }

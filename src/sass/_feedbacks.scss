@@ -122,6 +122,11 @@
                   box-shadow: 0 0.5rem 1rem 0 rgba($color: $color-black, $alpha: 0.5);   
             }
 
+            &:active {
+                  transform: translateY(-0.5rem);
+                  box-shadow: 0 0.5rem 1rem 0 rgba($color: $color-black, $alpha: 0.5);
+            }
+
             &--img{
                   height: 2.5rem;
                   width: 2.5rem;
