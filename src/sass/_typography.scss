@@ -30,6 +30,10 @@
             color: $color-grey-dark;
       }
 
+      &-primary {
+            color: $color-primary;
+      }
+
       &-light {
             color: $color-white;
       }
@@ -41,6 +45,10 @@
       line-height: 1.4;
       &-dark {
             color: $color-grey-dark-2;
+      }
+
+      &-primary {
+            color: $color-primary;
       }
 
       &-light {
