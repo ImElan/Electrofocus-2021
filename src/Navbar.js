@@ -15,7 +15,7 @@ class Navbar extends Component {
                               <h2 className='heading--2 heading--2-primary'>ElectroFocus</h2>
                         </a>
                         <ul className='navbar__nav'>
-                             {items.map(item => <NavbarItem item={item}/>)} 
+                             {items.map(item => <NavbarItem item={item} key={item} />)} 
                              <li className='navbar__item'>
                                     <a href='#' className='btn navbar__link--register'>Register</a>
                               </li>
