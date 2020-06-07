@@ -12,7 +12,7 @@ class FeedbackDetails extends Component {
       }
 
       componentDidMount() {
-            console.log('Will Mount');
+            console.log(this.widthRef);
             const slideWidth = this.widthRef.current.clientWidth;
             this.setState({
                   slideWidth:slideWidth
@@ -28,7 +28,6 @@ class FeedbackDetails extends Component {
       }
 
       handleResize() {
-            console.log('Resized...')
             const slideWidth = this.widthRef.current.clientWidth;
             this.setState({
                   slideWidth:slideWidth
