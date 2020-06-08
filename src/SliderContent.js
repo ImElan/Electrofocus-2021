@@ -7,7 +7,7 @@ class SliderContent extends Component {
             const { translate,transition,width } = this.props;
 
             const contentStyle = {
-                  height:'75%',
+                  height:'70%',
                   width: `${width}px`,
                   transition:`transform ${transition}s ease-out`,
                   transform:`translateX(-${translate}px)`,

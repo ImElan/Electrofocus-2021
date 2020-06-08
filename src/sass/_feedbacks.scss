@@ -18,7 +18,7 @@
             display: grid;
             grid-template-rows: repeat(3,min-content);
             grid-template-columns: 1fr;
-            row-gap: 2rem;
+            row-gap: 1.5rem;
             justify-content: center;
             align-content: center;
       }
@@ -92,20 +92,24 @@
       &__buttons {
             justify-self: center; 
             padding: 1rem;
+            margin: 1.5rem 0;
             text-align: center;
+            height: 25%;
+            align-items: center;
       }
 
       &__button {
-            &,&:active,&:focus {
+            background-color: $color-primary-dark;
+            padding: 1.5rem;
+            border-radius: 50%;
+            cursor: pointer;
+            margin: 0 0.5rem;
+            box-shadow: 0 0.3rem 0.9rem 0 rgba($color: $color-black, $alpha: 0.35);   
+            transition: all 0.25s;
+
+            &,&:focus {
                   border: none;
                   outline: none;
-                  background-color: $color-primary-dark;
-                  padding: 1.5rem;
-                  border-radius: 50%;
-                  cursor: pointer;
-                  margin: 0 0.6rem;
-                  box-shadow: 0 0.3rem 0.9rem 0 rgba($color: $color-black, $alpha: 0.35);   
-                  transition: all 0.25s;
             }
 
             &--disabled {
@@ -119,14 +123,41 @@
             }
 
             &:active {
+                  border: none;
+                  outline: none;
                   transform: translateY(-0.5rem);
                   box-shadow: 0 0.5rem 1rem 0 rgba($color: $color-black, $alpha: 0.5);
             }
 
-            &--img{
+            &--img {
                   height: 2.5rem;
                   width: 2.5rem;
                   fill: $color-white;
             }
+      }
+
+      &__dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0.5rem 0;
+            height: 5%;
+      }
+
+      &__dot {
+           height: 1.5rem;
+           width: 1.5rem;
+           border-radius: 50%;
+           background-color: $color-grey-dark-2; 
+           transition: all 0.2s;
+
+           &:not(:last-child) {
+                 margin-right: 1rem;
+           }
+
+           &--active {
+            background-color: $color-primary; 
+
+           }
       }
 }

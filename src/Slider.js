@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import SliderContent from './SliderContent';
+import Dots from './Dots';
 import arrowSprite from './assets/arrow_sprite.svg';
 
 class Slider extends Component {
@@ -82,6 +83,9 @@ class Slider extends Component {
                               width={widthOfDiv * reviews.length}
                         />
 
+                        {/* Dots Goes here */}
+                        <Dots reviews={reviews} currentSlide={currentSlide} />
+
                         {/* Buttons Goes Here */}
                         <div className='feedbacks__buttons'>      
                               <button 
@@ -103,8 +107,6 @@ class Slider extends Component {
                                     </svg>
                               </button>
                         </div>
-
-                        {/* Dots Goes here */}
                   </div>
             )
       }
