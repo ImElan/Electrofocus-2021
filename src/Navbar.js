@@ -4,7 +4,7 @@ import { ReactComponent as Logo } from './assets/logo_2.svg';
 
 class Navbar extends Component {
       static defaultProps = {
-            items:['Home','WorkShop','Events','Contact']
+            items:['Home','WorkShops','Events','Contact']
       }
       render() {
             const {items} = this.props;
