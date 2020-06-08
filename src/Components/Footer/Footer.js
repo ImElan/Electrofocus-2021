@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import social_media from './assets/social_sprite.svg';
+import social_media from '../../assets/social_sprite.svg';
 
 class Footer extends Component {
       render() {

@@ -2,13 +2,17 @@
       grid-column: 1/-1;
       display: grid;
       padding: 2rem;
-      grid-template-columns: minmax(min-content,1.5fr) minmax(max-content,2fr);
+      grid-template-columns: minmax(min-content,1.5fr) minmax(min-content,2fr);
       align-items: center;
 
       &__logoContainer {
             display: flex;
             align-items: center;
             text-decoration: none;
+
+            &:hover .navbar__image {
+                  animation: shake 0.4s linear infinite;
+            }
       }
 
       &__image {
@@ -16,10 +20,6 @@
             width: 7rem;
             margin-right: 1.3rem;
             pointer-events: none;
-
-            &:hover {
-                  animation: shake 0.4s linear infinite;
-            }
       }
 
       &__nav {

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import feedbackSprite from './assets/feedback_sprite.svg';
+import feedbackSprite from '../../assets/feedback_sprite.svg';
 
 class Slide extends Component {
       render() {

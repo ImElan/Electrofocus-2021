@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import workshopSprite from './assets/workshop_sprite.svg'
+import workshopSprite from '../../assets/workshop_sprite.svg'
 
 class WorkShopCardDetails extends Component {
       render() {

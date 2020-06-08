@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import sprite from './assets/sprite.svg';
+import sprite from '../../assets/sprite.svg';
 
 class FeatureBox extends Component {
       render() {

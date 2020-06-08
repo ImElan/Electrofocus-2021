@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import NavbarItem from './NavbarItem';
-import { ReactComponent as Logo } from './assets/logo_2.svg';
+import { ReactComponent as Logo } from '../../assets/logo_2.svg';
 
 class Navbar extends Component {
       static defaultProps = {

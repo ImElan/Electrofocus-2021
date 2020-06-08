@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
-import Navbar from './Navbar';
-import robot from './assets/header.png';
+import Navbar from '../Navbar/Navbar';
+import robot from '../../assets/header.png';
 
 class Header extends Component {
       static defaultProps = {

@@ -1,8 +1,8 @@
 import React,{Component} from 'react';
 import WorkShopCard from './WorkShopCard';
-import web from './assets/web_dev.png';
-import arduino from './assets/arduino.jpg';
-import ai from './assets/ai.jpg';
+import web from '../../assets/web_dev.png';
+import arduino from '../../assets/arduino.jpg';
+import ai from '../../assets/ai.jpg';
 
 class WorkShops extends Component {
       static defaultProps = {
