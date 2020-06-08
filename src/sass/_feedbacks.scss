@@ -8,6 +8,8 @@
 
       &__image {
             grid-column: 1 / span 1;
+            align-self: center;
+            justify-self: center;
 
             &--img {
                   width: 100%;
