@@ -13,6 +13,7 @@ class Slider extends Component {
                   widthOfDiv:null
             }
             this.widthRef = React.createRef();
+            this.handleResize = this.handleResize.bind(this);
             this.handleNextClick = this.handleNextClick.bind(this);
             this.handlePrevClick = this.handlePrevClick.bind(this);
       }
@@ -23,19 +24,21 @@ class Slider extends Component {
                   widthOfDiv:width
             });
 
-            window.addEventListener('resize', () => {
-                  const {currentSlide} = this.state;
+            window.addEventListener('resize',this.handleResize)
+      }
+
+      handleResize() {
+            const {currentSlide} = this.state;
                   this.setState({
-                        ...this.state,
-                        widthOfDiv:this.widthRef.current.clientWidth,
-                        translate: currentSlide * this.widthRef.current.clientWidth,
-                        transition:0
-                  })
+                  ...this.state,
+                  widthOfDiv:this.widthRef.current.clientWidth,
+                  translate: currentSlide * this.widthRef.current.clientWidth,
+                  transition:0
             })
       }
 
       componentWillUnmount() {
-            window.removeEventListener('resize');
+            window.removeEventListener('resize',this.handleResize);
       }
 
       handleNextClick() {

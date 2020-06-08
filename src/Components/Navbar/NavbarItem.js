@@ -1,11 +1,12 @@
 import React,{ Component } from "react";
+import { NavLink } from 'react-router-dom';
 
 class NavbarItem extends Component {
       render() {
-            const {item} = this.props;
+            const {name,link} = this.props;
             return(
                   <li className='navbar__item'>
-                        <a href='' className='navbar__link'>{item}</a>
+                        <NavLink to={`${link}`} activeClassName='navbar__link--active' className='navbar__link'>{name}</NavLink>
                   </li>
             )
       }

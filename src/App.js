@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router,Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import WorkShop from './Pages/WorkShop';
 import Event from './Pages/Event';
