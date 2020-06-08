@@ -11,7 +11,9 @@ class Navbar extends Component {
             return(
                   <section className='navbar'>
                         <a className='navbar__logoContainer' href=''>
-                              <Logo className='navbar__image' />
+                              <div className='navbar__imageContainer'>
+                                    <Logo className='navbar__image' />
+                              </div>
                               <h2 className='heading--2 heading--2-primary'>ElectroFocus</h2>
                         </a>
                         <ul className='navbar__nav'>

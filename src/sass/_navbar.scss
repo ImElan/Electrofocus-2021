@@ -8,8 +8,10 @@
       &__logoContainer {
             display: flex;
             align-items: center;
-            text-decoration: none;
+            text-decoration: none;      
+      }
 
+      &__imageContainer {
             &:hover .navbar__image {
                   animation: shake 0.4s linear infinite;
             }
