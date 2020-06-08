@@ -15,6 +15,7 @@
             height: 7rem;
             width: 7rem;
             margin-right: 1.3rem;
+            pointer-events: none;
 
             &:hover {
                   animation: shake 0.4s linear infinite;

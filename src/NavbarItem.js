@@ -5,7 +5,7 @@ class NavbarItem extends Component {
             const {item} = this.props;
             return(
                   <li className='navbar__item'>
-                        <a href='#' className='navbar__link'>{item}</a>
+                        <a href='' className='navbar__link'>{item}</a>
                   </li>
             )
       }
