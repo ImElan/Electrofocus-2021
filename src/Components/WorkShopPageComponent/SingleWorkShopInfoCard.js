@@ -6,7 +6,7 @@ class SingleWorkShopInfoCard extends Component {
             const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth } = this.props;
 
             let imagePosition, contentPosition, imagePadding, contentPadding, colorStart, colorEnd;
-            if(index % 2 == 1) {
+            if(index % 2 === 1) {
                   imagePosition = 2;
                   contentPosition = 1;
                   imagePadding= '8rem'
