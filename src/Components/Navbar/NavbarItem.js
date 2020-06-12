@@ -6,7 +6,7 @@ class NavbarItem extends Component {
             const {name,link} = this.props;
             return(
                   <li className='navbar__item'>
-                        <NavLink to={`${link}`} activeClassName='navbar__link--active' className='navbar__link'>{name}</NavLink>
+                        <NavLink to={`${link}`} exact activeClassName='navbar__link--active' className='navbar__link'>{name}</NavLink>
                   </li>
             )
       }
