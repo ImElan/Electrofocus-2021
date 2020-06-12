@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import SingleWorkShopInfoCard from './SingleWorkShopInfoCard';
-import workshop from '../../Data/workshop';
 
 class WorkShopInfoContainer extends Component {
       render() {
@@ -20,7 +19,9 @@ class WorkShopInfoContainer extends Component {
                               </div>
                         </div>
                         <div className='workshopInfoContainer__workshops'>
-                              <SingleWorkShopInfoCard {...workshops[0]} />
+                              {workshops.map( (workshop,index) => (
+                                    <SingleWorkShopInfoCard {...workshop} index={index}/>
+                              ))}
                         </div>
                   </div>
             )
