@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import FeedbackBox from './FeedbackBox';
-import feedbackImage from '../../assets/review.png';
+import feedbackImage from '../../../assets/review.png';
 
 class FeedBacks extends Component {
       render() {

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import locationImage from '../../assets/location.svg';
+import locationImage from '../../../assets/location.svg';
 
 class Banner extends Component {
       render() {

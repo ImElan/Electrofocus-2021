@@ -19,7 +19,7 @@ class Header extends Component {
                                     className='header__image--img' 
                                     style={{width:imageWidth}} 
                                     src={image} 
-                                    alt='Header Photo'>
+                                    alt='Header'>
                               </img>
                         </div>
                   </section>

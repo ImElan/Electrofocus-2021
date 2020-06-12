@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import chevron from '../../assets/chevron.svg';
+import chevron from '../../../assets/chevron.svg';
 
 class Questions extends Component {
       constructor(props) {

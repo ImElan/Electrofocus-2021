@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import SliderContent from './SliderContent';
 import Dots from './Dots';
-import arrowSprite from '../../assets/arrow_sprite.svg';
+import arrowSprite from '../../../assets/arrow_sprite.svg';
 
 class Slider extends Component {
       constructor(props) {

@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import eventSprite from '../../assets/events_sprite.svg'; 
+import eventSprite from '../../../assets/events_sprite.svg'; 
 
 class EventBox extends Component {
       render() {

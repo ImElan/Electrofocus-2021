@@ -2,13 +2,13 @@ import React from 'react';
 
 // =============> Components <============
 import Header from '../Components/Header/Header';
-import Features from '../Components/Features/Features';
-import WorkShops from '../Components/WorkShop/WorkShops';
-import Banner from '../Components/Banner/Banner';
-import Sponsors from '../Components/Sponsors/Sponsors';
-import Events from '../Components/Events/Events';
-import FeedBacks from '../Components/FeedBack/FeedBacks';
-import FrequentlyAskedQuestions from '../Components/FAQ/FrequentlyAskedQuestions';
+import Features from '../Components/HomePageComponents/Features/Features';
+import WorkShops from '../Components/HomePageComponents/WorkShop/WorkShops';
+import Banner from '../Components/HomePageComponents/Banner/Banner';
+import Sponsors from '../Components/HomePageComponents/Sponsors/Sponsors';
+import Events from '../Components/HomePageComponents/Events/Events';
+import FeedBacks from '../Components/HomePageComponents/FeedBack/FeedBacks';
+import FrequentlyAskedQuestions from '../Components/HomePageComponents/FAQ/FrequentlyAskedQuestions';
 import Footer from '../Components/Footer/Footer';
 
 // =============> Data <=============
@@ -23,7 +23,7 @@ import {homePageHeader} from '../Data/header';
 
 function Home() {
       return (
-          <div className="container">
+          <div className="container container--home">
                 <Header {...homePageHeader} />
                 <Features {...features} />
                 <Banner {...banner}/>

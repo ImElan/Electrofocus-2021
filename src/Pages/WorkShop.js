@@ -9,7 +9,7 @@ import {workShopPageHeader} from '../Data/header';
 class WorkShop extends Component {
       render() {
             return(
-                  <div className='container'>
+                  <div className='container container--workshopo'>
                        <Header {...workShopPageHeader} /> 
                   </div>
             )
