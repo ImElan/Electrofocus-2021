@@ -11,7 +11,8 @@ export default {
                   price:'749',
                   date:'Jan 12',
                   time:'10.00 AM',
-                  venue:'DSP Lab'
+                  venue:'DSP Lab',
+                  infoDetails:'Jaculis at erat pellentesque adipiscing commodo elit at. Feugiat in ante metus dictum at tempor commodo ullamcorper. Consequat interdum varius sit amet mattis vulputate enim. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Feugiat nibh sed pulvinar proin gravida hendrerit. Malesuada proin libero nunc consequat. At quis risus sed vulputate odio ut enim blandit.'
             },
             {
                   name:'Arduino',
@@ -20,7 +21,8 @@ export default {
                   price:'849',
                   date:'Jan 13',
                   time:'10.00 AM',
-                  venue:'VLSI Lab'
+                  venue:'VLSI Lab',
+                  infoDetails:'Laoreet id donec ultrices tincidunt arcu. Mauris rhoncus aenean vel elit scelerisque mauris. Metus dictum at tempor commodo ullamcorper. At consectetur lorem donec massa sapien faucibus. Neque convallis a cras semper auctor neque. Turpis in eu mi bibendum. Adipiscing elit duis tristique sollicitudin nibh sit. '
             },
             {
                   name:'Artificial Intelligence',
@@ -29,7 +31,16 @@ export default {
                   price:'749',
                   date:'Jan 13',
                   time:'9.00 AM',
-                  venue:'LHC 201'
+                  venue:'LHC 201',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.'
             },
       ]
 }
+
+const workShopPageInfo = {
+      subtitle:'Check Out our WorkShops',
+      title:'Learn in-demand job skills',
+      detail:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.'
+}
+
+export {workShopPageInfo};
