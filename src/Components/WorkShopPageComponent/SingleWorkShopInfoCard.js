@@ -4,22 +4,40 @@ import SingleWorkShopInfoDetails from './SingleWorkShopInfoDetails';
 class SingleWorkShopInfoCard extends Component {
       render() {
             const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth } = this.props;
-            
-            let imagePosition, contentPosition, imagePadding, contentPadding;
+
+            let imagePosition, contentPosition, imagePadding, contentPadding, colorStart, colorEnd;
             if(index % 2 == 1) {
                   imagePosition = 2;
                   contentPosition = 1;
                   imagePadding= '8rem'
                   contentPadding= '0rem'
+                  colorEnd='#E2E8F0'
+                  colorStart='#EDF2F7'
             } else {
                   imagePosition = 1;
                   contentPosition = 2;
                   imagePadding= '0rem'
                   contentPadding= '8rem'
+                  colorEnd='#EDF2F7'
+                  colorStart='#E2E8F0'
             }
 
             return(
-                  <div className='workshopInfoContainer__singleInfoCard'>
+                  <div 
+                        className='workshopInfoContainer__singleInfoCard'
+                        style={
+                              {
+                                    backgroundImage: `
+                                          linear-gradient(
+                                                to right,
+                                                ${colorStart} 0%,
+                                                ${colorStart} 50%,
+                                                ${colorEnd} 50%
+                                          )
+                                    `
+                              }
+                        }
+                  >
                         <h3 className='workshopInfoContainer__name'>{name}</h3>
                         <div 
                               className='workshopInfoContainer__image' 
