@@ -2,10 +2,6 @@ import React,{Component} from 'react';
 import locationImage from '../../assets/location.svg';
 
 class Banner extends Component {
-      static defaultProps = {
-            location:'MIT, Chrompet',
-            date:'January 12, 2021'
-      }
       render() {
             const {location,date} = this.props;
             return(
