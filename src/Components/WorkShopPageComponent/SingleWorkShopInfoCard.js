@@ -3,9 +3,9 @@ import SingleWorkShopInfoDetails from './SingleWorkShopInfoDetails';
 
 class SingleWorkShopInfoCard extends Component {
       render() {
-            const { name,infoDetails,price,date,time,venue,infoImage,index } = this.props;
+            const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth } = this.props;
+            
             let imagePosition, contentPosition, imagePadding, contentPadding;
-
             if(index % 2 == 1) {
                   imagePosition = 2;
                   contentPosition = 1;
@@ -34,6 +34,7 @@ class SingleWorkShopInfoCard extends Component {
                                     className='workshopInfoContainer__image--img' 
                                     src={infoImage} 
                                     alt='web dev workshop'
+                                    style={{width:imageWidth}}
                               />
                         </div>
                         <div 
