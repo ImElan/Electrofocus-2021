@@ -1,4 +1,14 @@
+// Tech Events Pictures
 import iot_workshop from '../assets/iot.svg';
+import c_struct from '../assets/c_struct.svg';
+import crypt_tech from '../assets/crypt_tech.svg';
+import circuitology from '../assets/circuitology.svg';
+import binary_battle from '../assets/binary_battle.svg';
+import liaise_the_link from '../assets/liaise_the_link.svg';
+import line_follower from '../assets/line_follower.svg';
+import work_the_network from '../assets/work_the_network.svg';
+
+// Non Tech Pictures
 
 export default {
       title:'20+ Events Spanning 4 Domains',
@@ -12,45 +22,9 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:c_struct,
                   imageWidth:'90%',
                   icon:'code'
-            },
-            {
-                  name:'Circuitology',
-                  id:'circuitology',
-                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
-                  price:null,
-                  date:'Jan 11',
-                  time:'12.30 PM',
-                  venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
-                  icon:'circuit'
-            },
-            {
-                  name:'Binary Battle',
-                  id:'binary-battle',
-                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
-                  price:null,
-                  date:'Jan 11',
-                  time:'12.30 PM',
-                  venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
-                  icon:'code-1'
-            },
-            {
-                  name:'Work The Network',
-                  id:'work-the-network',
-                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
-                  price:null,
-                  date:'Jan 11',
-                  time:'12.30 PM',
-                  venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
-                  icon:'router'
             },
             {
                   name:'CrypTech',
@@ -60,9 +34,21 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:crypt_tech,
                   imageWidth:'90%',
                   icon:'cryptography'
+            },
+            {
+                  name:'Circuitology',
+                  id:'circuitology',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:circuitology,
+                  imageWidth:'90%',
+                  icon:'circuit'
             },
             {
                   name:'Liaise The Link',
@@ -72,9 +58,21 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:liaise_the_link,
                   imageWidth:'90%',
                   icon:'wifi'
+            },
+            {
+                  name:'Binary Battle',
+                  id:'binary-battle',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:binary_battle,
+                  imageWidth:'90%',
+                  icon:'code-1'
             },
             {
                   name:'Line Follower',
@@ -84,10 +82,22 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:line_follower,
                   imageWidth:'90%',
                   icon:'robot'
             },
+            {
+                  name:'Work The Network',
+                  id:'work-the-network',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:work_the_network,
+                  imageWidth:'90%',
+                  icon:'router'
+            }
       ],
       nonTechEvents:[
             {
