@@ -27,4 +27,12 @@ const techEventPageHeader = {
       imageWidth:'90%'
 }
 
-export {homePageHeader,workShopPageHeader,techEventPageHeader};
+const nonTechEventPageHeader = {
+      title:'Non Technical Events',
+      content:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+      isHomePage:false,
+      image:nonTech,
+      imageWidth:'90%'
+}
+
+export {homePageHeader,workShopPageHeader,techEventPageHeader,nonTechEventPageHeader};

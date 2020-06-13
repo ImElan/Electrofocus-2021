@@ -92,30 +92,86 @@ export default {
       nonTechEvents:[
             {
                   name:'Mock IPL Bidding',
+                  id:'mock-ipl-bidding',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'cultures'
             },
             {
                   name:'Ship Wreck',
+                  id:'ship-wreck',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'actor'
             },
             {
                   name:'Voice Over',
+                  id:'voice-over',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'studio'
             },
             {
                   name:'Just A Minute',
+                  id:'just-a-minute',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'music-and-multimedia'
             },
             {
                   name:'Fifa',
+                  id:'fifa',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'games'
             },
             {
                   name:'Rubik\'s Cube',
+                  id:'rubiks-cube',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'rubik'
             },
             {
                   name:'Math Maverick',
+                  id:'math-maverick',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:iot_workshop,
+                  imageWidth:'90%',
                   icon:'abacus'
             },
       ]

@@ -73,7 +73,10 @@ class SingleWorkShopInfoCard extends Component {
                                     }
                                     <SingleWorkShopInfoDetails info={venue} icon='location' />
                               </div>
-                              <div className='workshopInfoContainer__buttons'>
+                              <div 
+                                    className='workshopInfoContainer__buttons'
+                                    style={{width: price ? '80%':'100%'}}
+                              >
                                     <NavLink 
                                           className='btn workshopInfoContainer__button workshopInfoContainer__button--moreDetails'
                                           exact
