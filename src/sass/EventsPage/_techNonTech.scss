@@ -21,12 +21,13 @@
 
                   & .techNonTechEvents__heading {
                         color: $color-primary;
+                        transform: scale(1.1);
                   }
             }
       }
 
       &__heading {
-            transition: color 0.2s;
+            transition: all 0.2s;
       }
 
       &__techImageContainer {
@@ -45,6 +46,7 @@
 
                   & .techNonTechEvents__heading {
                         color: $color-primary;
+                        transform: scale(1.1);
                   }
             }
       }
