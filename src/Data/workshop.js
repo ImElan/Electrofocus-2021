@@ -1,5 +1,5 @@
 import web from '../assets/web_dev.png';
-import ai from '../assets/ai.jpg';
+import ai from '../assets/ai.png';
 import arduino from '../assets/arduino_workshop.jfif';
 import webdev from '../assets/web_development.svg';
 import ai_workshop from '../assets/artificial_intelligence.svg';
@@ -171,6 +171,10 @@ const workShopPageInfo = {
 const singleWorkShopPageInfo = {
       subtitle:'Agenda',
       title:'What You\'ll Learn ?',
+      requirementsSubTitle:'Requirements',
+      requirementsTitle:'What You\'ll Need ?',
+      detailsSubTitle:'Details',
+      detailsTitle:'What You\'ll have to Know ?',
 }
 
 export {workShopPageInfo,singleWorkShopPageInfo};
