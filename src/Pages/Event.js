@@ -1,10 +1,14 @@
 import React,{Component} from 'react';
 
-class Event extends Component {
+import Navbar from '../Components/Navbar/Navbar';
+import TechNonTechContainer from '../Components/EventsPage/TechNonTechContainer';
+
+class Event extends Component {     
       render() {
             return(
-                  <div>
-                        <h1>Events Page</h1>
+                  <div className='container container--techNonTech'>
+                        <Navbar />
+                        <TechNonTechContainer />
                   </div>
             )
       }

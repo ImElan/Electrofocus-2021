@@ -35,7 +35,7 @@ function App() {
                   />
                   <Route 
                         exact
-                        path='/events'
+                        path='/tech-nonTech-events'
                         render= {() => <Event /> }
                   />
                   <Route 

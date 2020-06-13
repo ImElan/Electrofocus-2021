@@ -8,7 +8,7 @@ class Navbar extends Component {
             items:[
                   {name:'Home',link:''},
                   {name:'Workshops',link:'/workshops'},
-                  {name:'Events',link:'/events'},
+                  {name:'Events',link:'/tech-nonTech-events'},
                   {name:'Contact',link:'/contact'}
             ]
       }
