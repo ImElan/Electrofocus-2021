@@ -47,7 +47,7 @@ export default {
                   venue:'VLSI Lab',
                   infoDetails:'Laoreet id donec ultrices tincidunt arcu. Mauris rhoncus aenean vel elit scelerisque mauris. Metus dictum at tempor commodo ullamcorper. At consectetur lorem donec massa sapien faucibus. Neque convallis a cras semper auctor neque. Turpis in eu mi bibendum. Adipiscing elit duis tristique sollicitudin nibh sit. ',
                   infoImage:arduino_workshop,
-                  imageWidth:'100%',
+                  imageWidth:'90%',
                   agenda:[
                         'Basics of Robotics',
                         'Basics of C/C++ Programming',

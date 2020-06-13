@@ -14,7 +14,7 @@ class Header extends Component {
                                     isHomePage && <button className='btn header__content--btn header__content--btn_secondary'>Register Now</button>
                               }
                         </div>
-                        <div className='header__image'>
+                        <div className='header__image' style={{width:`${isHomePage ? 'auto':'100%'}`}}>
                               <img 
                                     className='header__image--img' 
                                     style={{width:imageWidth}} 
