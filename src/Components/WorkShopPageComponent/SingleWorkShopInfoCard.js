@@ -4,7 +4,7 @@ import SingleWorkShopInfoDetails from './SingleWorkShopInfoDetails';
 
 class SingleWorkShopInfoCard extends Component {
       render() {
-            const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth,id } = this.props;
+            const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth,id,route } = this.props;
             let imagePosition, contentPosition, imagePadding, contentPadding, colorStart, colorEnd;
             if(index % 2 === 1) {
                   imagePosition = 2;
@@ -68,21 +68,25 @@ class SingleWorkShopInfoCard extends Component {
                               <div className='workshopInfoContainer__details'>
                                     <SingleWorkShopInfoDetails info={date} icon='calendar' />
                                     <SingleWorkShopInfoDetails info={time} icon='time' />
-                                    <SingleWorkShopInfoDetails info={price} icon='money' />
+                                    {     price &&
+                                          <SingleWorkShopInfoDetails info={price} icon='money' />
+                                    }
                                     <SingleWorkShopInfoDetails info={venue} icon='location' />
                               </div>
                               <div className='workshopInfoContainer__buttons'>
                                     <NavLink 
                                           className='btn workshopInfoContainer__button workshopInfoContainer__button--moreDetails'
                                           exact
-                                          to={`/workshops/${id}`}      
+                                          to={`/${route}/${id}`}      
                                     >
                                           View More Details
                                     </NavLink>
-                                    <button 
-                                          className='btn workshopInfoContainer__button workshopInfoContainer__button--bookNow'>
-                                          Book Now
-                                    </button>
+                                    {     price &&
+                                          <button 
+                                                className='btn workshopInfoContainer__button workshopInfoContainer__button--bookNow'>
+                                                Book Now
+                                          </button>
+                                    }
                               </div>
                         </div>
                   </div>

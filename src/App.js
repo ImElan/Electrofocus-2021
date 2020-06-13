@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import WorkShop from './Pages/WorkShop';
 import IndividualWorkShop from './Pages/IndividualWorkShop';
 import Event from './Pages/Event';
+import TechEvents from './Pages/TechEvents';
 
 import findWorkShop from './Helpers/findWorkShop';
 
@@ -37,6 +38,11 @@ function App() {
                         exact
                         path='/tech-nonTech-events'
                         render= {() => <Event /> }
+                  />
+                  <Route
+                        exact
+                        path='/techEvents'
+                        render= {() => <TechEvents /> }
                   />
                   <Route 
                         exact

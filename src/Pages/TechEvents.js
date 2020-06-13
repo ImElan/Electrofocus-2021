@@ -6,21 +6,21 @@ import Footer from '../Components/Footer/Footer';
 import WorkShopInfoContainer from '../Components/WorkShopPageComponent/WorkShopInfoContainer';
 
 // ============> Data <=============
-import workshop from '../Data/workshop';
-import {workShopPageHeader} from '../Data/header';
-import {workShopPageInfo} from '../Data/workshop';
+import event from '../Data/event';
+import {techEventPageHeader} from '../Data/header';
+import {eventsPageInfo} from '../Data/event';
 
-class WorkShop extends Component {
+class TechEvents extends Component {
       render() {
-            const workshops = workshop.workshops;
+            const events = event.techEvents;
             return(
                   <div className='container container--workshop'>
-                       <Header {...workShopPageHeader} /> 
-                       <WorkShopInfoContainer info={workShopPageInfo} data={workshops} route='workshops' />
+                       <Header {...techEventPageHeader} /> 
+                       <WorkShopInfoContainer info={eventsPageInfo} data={events} route='techEvents' />
                        <Footer />
                   </div>
             )
       }
 }
 
-export default WorkShop;
+export default TechEvents;

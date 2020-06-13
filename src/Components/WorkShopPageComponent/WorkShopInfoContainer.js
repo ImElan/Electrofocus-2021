@@ -4,7 +4,7 @@ import SingleWorkShopInfoCard from './SingleWorkShopInfoCard';
 class WorkShopInfoContainer extends Component {
       render() {
             const { subtitle,title,detail } = this.props.info;
-            const { workshops } = this.props;
+            const { data,route } = this.props;
             return(
                   <div className='workshopInfoContainer'>
                         <div className='workshopInfoContainer__heading'>
@@ -19,8 +19,13 @@ class WorkShopInfoContainer extends Component {
                               </div>
                         </div>
                         <div className='workshopInfoContainer__workshops'>
-                              {workshops.map( (workshop,index) => (
-                                    <SingleWorkShopInfoCard {...workshop} index={index} key={workshop.name} />
+                              {data.map( (workshop,index) => (
+                                    <SingleWorkShopInfoCard 
+                                          {...workshop} 
+                                          index={index} 
+                                          key={workshop.name} 
+                                          route={route} 
+                                    />
                               ))}
                         </div>
                   </div>
