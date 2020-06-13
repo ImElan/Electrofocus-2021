@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import { NavLink } from 'react-router-dom';
 import WorkShopCard from './WorkShopCard';
 
 class WorkShops extends Component {
@@ -14,7 +15,13 @@ class WorkShops extends Component {
                                     <WorkShopCard {...workshop} key={index}/>
                               ))}
                         </div>
-                        <button className='btn workshops__button'>Explore More WorkShops</button>
+                        <NavLink 
+                              exact
+                              to='/workshops'
+                              className='btn workshops__button'
+                        >
+                              Explore More WorkShops
+                        </NavLink>
                   </section>
             )
       }
