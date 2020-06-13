@@ -168,4 +168,9 @@ const workShopPageInfo = {
       detail:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Tenetur distinctio necessitatibus pariatur voluptatibus quidem consequatur harum.'
 }
 
-export {workShopPageInfo};
+const singleWorkShopPageInfo = {
+      subtitle:'Agenda',
+      title:'What You\'ll Learn ?',
+}
+
+export {workShopPageInfo,singleWorkShopPageInfo};
