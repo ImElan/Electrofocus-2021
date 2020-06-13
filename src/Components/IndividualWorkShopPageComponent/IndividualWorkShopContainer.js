@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import Agenda from './Agenda';
 import Requirements from './Requirements';
 import Details from './Details';
+import workshop_sprite from '../../assets/indi_workShop_sprite.svg';
 
 class IndividualWorkShopContainer extends Component {
       render() {
@@ -44,6 +45,9 @@ class IndividualWorkShopContainer extends Component {
                         </div>
                         {/* BookNow Button */}
                         <button className='btn individualWorkShop__button'>
+                              <svg className='individualWorkShop__bookNowSvg'>
+                                          <use xlinkHref={`${workshop_sprite}#booking`}/>
+                              </svg>
                               Book Now
                         </button>
                   </div>
