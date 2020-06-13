@@ -21,7 +21,20 @@ export default {
                   venue:'DSP Lab',
                   infoDetails:'Jaculis at erat pellentesque adipiscing commodo elit at. Feugiat in ante metus dictum at tempor commodo ullamcorper. Consequat interdum varius sit amet mattis vulputate enim. Mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor. Feugiat nibh sed pulvinar proin gravida hendrerit. Malesuada proin libero nunc consequat. At quis risus sed vulputate odio ut enim blandit.',
                   infoImage:webdev,
-                  imageWidth:'90%'
+                  imageWidth:'90%',
+                  agenda:[
+                        'Risus in hendrerit gravida rutrum quisque.',
+                        'Elit pellentesque habitant morbi tristique senectus et netus',
+                        'Sed ullamcorper morbi tincidunt ornare massa eget.',
+                        'Quam pellentesque nec nam aliquam sem et tortor. Consectetur purus ut faucibus pulvinar elementum integer. ',
+                        'Gravida rutrum quisque non tellus orci ac auctor augue.',
+                        'Vel risus commodo viverra maecenas accumsan lacus vel.'
+                  ],
+                  requirements:[
+                        'Nisl pretium fusce id velit ut.',
+                        'Ut sem nulla pharetra diam sit amet.',
+                        'Sollicitudin aliquam ultrices sagittis.'
+                  ]
             },
             {
                   id:'arduino',
@@ -34,7 +47,20 @@ export default {
                   venue:'VLSI Lab',
                   infoDetails:'Laoreet id donec ultrices tincidunt arcu. Mauris rhoncus aenean vel elit scelerisque mauris. Metus dictum at tempor commodo ullamcorper. At consectetur lorem donec massa sapien faucibus. Neque convallis a cras semper auctor neque. Turpis in eu mi bibendum. Adipiscing elit duis tristique sollicitudin nibh sit. ',
                   infoImage:arduino_workshop,
-                  imageWidth:'100%'
+                  imageWidth:'100%',
+                  agenda:[
+                        'Basics of Robotics',
+                        'Basics of C/C++ Programming',
+                        'Overview of Arduino Board',
+                        'Basic Programming on arduino',
+                        'Intefacing several sensors',
+                        'Implementing a Robotic Module'
+                  ],
+                  requirements:[
+                        'Laptop',
+                        'Arduino IDE (Software)',
+                        'C/C++ (Optional)'
+                  ]
             },
             {
                   id:'artificial-intelligence',
@@ -47,7 +73,17 @@ export default {
                   venue:'LHC 201',
                   infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
                   infoImage:ai_workshop,
-                  imageWidth:'90%'
+                  imageWidth:'90%',
+                  agenda:[
+                        'Artificial Intelligence and its subsets',
+                        'Image Classifications and its challenges',
+                        'Steps in image classifications',
+                        'Learning Algorithms - Supervised and UnSupervised',
+                        'Deep Learning and its practical applications',
+                  ],
+                  requirements:[
+                        'No prerequisites needed'
+                  ]
             },
             {
                   id:'cryptography-techniques',
@@ -58,7 +94,22 @@ export default {
                   venue:'Lecture Hall Complex 203',
                   infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
                   infoImage:crypt_workshop,
-                  imageWidth:'90%'
+                  imageWidth:'90%',
+                  agenda:[
+                        'Basics of Cryptography',
+                        'Types of Cryptography',
+                        'Ancient Cryptography Techniques',
+                        'Digital Cryptography Techniques',
+                        'Types of message authentication system',
+                        'Electronic transactions behind the scenes',
+                        'Digital Signature Visualization',
+                        'Implementation using Cryptool'
+                  ],
+                  requirements:[
+                        'Basic Mathematics',
+                        'Basic Concepts of network',
+                        'Laptops will be provided'
+                  ]
             },
             {
                   id:'internet-of-things',
@@ -69,7 +120,20 @@ export default {
                   venue:'RLHC 301',
                   infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
                   infoImage:iot_workshop,
-                  imageWidth:'90%'
+                  imageWidth:'90%',
+                  agenda:[
+                        'Risus in hendrerit gravida rutrum quisque.',
+                        'Elit pellentesque habitant morbi tristique senectus et netus',
+                        'Sed ullamcorper morbi tincidunt ornare massa eget.',
+                        'Quam pellentesque nec nam aliquam sem et tortor. Consectetur purus ut faucibus pulvinar elementum integer. ',
+                        'Gravida rutrum quisque non tellus orci ac auctor augue.',
+                        'Vel risus commodo viverra maecenas accumsan lacus vel.'
+                  ],
+                  requirements:[
+                        'Nisl pretium fusce id velit ut.',
+                        'Ut sem nulla pharetra diam sit amet.',
+                        'Sollicitudin aliquam ultrices sagittis.'
+                  ]
             },
             {
                   id:'network-security',
@@ -80,7 +144,20 @@ export default {
                   venue:'LHC 201',
                   infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
                   infoImage:security_workshop,
-                  imageWidth:'90%'
+                  imageWidth:'90%',
+                  agenda:[
+                        'Risus in hendrerit gravida rutrum quisque.',
+                        'Elit pellentesque habitant morbi tristique senectus et netus',
+                        'Sed ullamcorper morbi tincidunt ornare massa eget.',
+                        'Quam pellentesque nec nam aliquam sem et tortor. Consectetur purus ut faucibus pulvinar elementum integer. ',
+                        'Gravida rutrum quisque non tellus orci ac auctor augue.',
+                        'Vel risus commodo viverra maecenas accumsan lacus vel.'
+                  ],
+                  requirements:[
+                        'Nisl pretium fusce id velit ut.',
+                        'Ut sem nulla pharetra diam sit amet.',
+                        'Sollicitudin aliquam ultrices sagittis.'
+                  ]
             }
       ]
 }
