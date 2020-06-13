@@ -1,14 +1,20 @@
 // Tech Events Pictures
-import iot_workshop from '../assets/iot.svg';
 import c_struct from '../assets/c_struct.svg';
 import crypt_tech from '../assets/crypt_tech.svg';
 import circuitology from '../assets/circuitology.svg';
 import binary_battle from '../assets/binary_battle.svg';
 import liaise_the_link from '../assets/liaise_the_link.svg';
 import line_follower from '../assets/line_follower.svg';
-import work_the_network from '../assets/work_the_network.svg';
+import work_the_network from '../assets/work_the_network.svg';    
 
 // Non Tech Pictures
+import math_maverick from '../assets/math_maverick.svg';
+import fifa from '../assets/fifa.svg';
+import voice_over from '../assets/voice_over.svg';
+import just_a_minute from '../assets/just_a_minute.svg';
+import ship_wreck from '../assets/ship_wreck.svg';
+import mock_ipl_bidding from '../assets/mock_ipl_bidding.svg';
+import rubiks_cube from '../assets/rubiks_cube.svg';
 
 export default {
       title:'20+ Events Spanning 4 Domains',
@@ -47,7 +53,7 @@ export default {
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
                   infoImage:circuitology,
-                  imageWidth:'90%',
+                  imageWidth:'80%',
                   icon:'circuit'
             },
             {
@@ -59,7 +65,7 @@ export default {
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
                   infoImage:liaise_the_link,
-                  imageWidth:'90%',
+                  imageWidth:'80%',
                   icon:'wifi'
             },
             {
@@ -95,23 +101,11 @@ export default {
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
                   infoImage:work_the_network,
-                  imageWidth:'90%',
+                  imageWidth:'80%',
                   icon:'router'
             }
       ],
       nonTechEvents:[
-            {
-                  name:'Mock IPL Bidding',
-                  id:'mock-ipl-bidding',
-                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
-                  price:null,
-                  date:'Jan 11',
-                  time:'12.30 PM',
-                  venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
-                  icon:'cultures'
-            },
             {
                   name:'Ship Wreck',
                   id:'ship-wreck',
@@ -120,9 +114,21 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:ship_wreck,
                   imageWidth:'90%',
                   icon:'actor'
+            },
+            {
+                  name:'Mock IPL Bidding',
+                  id:'mock-ipl-bidding',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:mock_ipl_bidding,
+                  imageWidth:'80%',
+                  icon:'cultures'
             },
             {
                   name:'Voice Over',
@@ -132,7 +138,7 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:voice_over,
                   imageWidth:'90%',
                   icon:'studio'
             },
@@ -144,8 +150,8 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
+                  infoImage:just_a_minute,
+                  imageWidth:'80%',
                   icon:'music-and-multimedia'
             },
             {
@@ -156,7 +162,7 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:fifa,
                   imageWidth:'90%',
                   icon:'games'
             },
@@ -168,7 +174,7 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
+                  infoImage:rubiks_cube,
                   imageWidth:'90%',
                   icon:'rubik'
             },
@@ -180,8 +186,8 @@ export default {
                   date:'Jan 11',
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
-                  infoImage:iot_workshop,
-                  imageWidth:'90%',
+                  infoImage:math_maverick,
+                  imageWidth:'80%',
                   icon:'abacus'
             },
       ]
