@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
+import { NavLink } from 'react-router-dom';
 import SingleWorkShopInfoDetails from './SingleWorkShopInfoDetails';
 
 class SingleWorkShopInfoCard extends Component {
       render() {
-            const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth } = this.props;
-
+            const { name,infoDetails,price,date,time,venue,infoImage,index,imageWidth,id } = this.props;
             let imagePosition, contentPosition, imagePadding, contentPadding, colorStart, colorEnd;
             if(index % 2 === 1) {
                   imagePosition = 2;
@@ -72,10 +72,13 @@ class SingleWorkShopInfoCard extends Component {
                                     <SingleWorkShopInfoDetails info={venue} icon='location' />
                               </div>
                               <div className='workshopInfoContainer__buttons'>
-                                    <button 
-                                          className='btn workshopInfoContainer__button workshopInfoContainer__button--moreDetails'>
+                                    <NavLink 
+                                          className='btn workshopInfoContainer__button workshopInfoContainer__button--moreDetails'
+                                          exact
+                                          to={`/workshops/${id}`}      
+                                    >
                                           View More Details
-                                    </button>
+                                    </NavLink>
                                     <button 
                                           className='btn workshopInfoContainer__button workshopInfoContainer__button--bookNow'>
                                           Book Now

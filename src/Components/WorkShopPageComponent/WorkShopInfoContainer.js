@@ -20,7 +20,7 @@ class WorkShopInfoContainer extends Component {
                         </div>
                         <div className='workshopInfoContainer__workshops'>
                               {workshops.map( (workshop,index) => (
-                                    <SingleWorkShopInfoCard {...workshop} index={index}/>
+                                    <SingleWorkShopInfoCard {...workshop} index={index} key={workshop.name} />
                               ))}
                         </div>
                   </div>

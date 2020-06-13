@@ -76,6 +76,7 @@
             display: grid;
             padding-top: 2rem;
             padding-right: 2rem;
+            padding-left: 2rem;
             grid-template-rows: repeat(3,min-content);
             row-gap: 2rem;
       }
@@ -127,10 +128,12 @@
             border-radius: 4px;
             transition: all 0.2s;
             width: 100%;
+            text-align: center;
 
             &--moreDetails {
                   background-color: $color-secondary;
                   grid-column: 1 / span 1;
+                  text-decoration: none;
                   &:hover {
                         background-color: $color-secondary-dark;
                   }

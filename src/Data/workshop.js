@@ -11,6 +11,7 @@ import security_workshop from '../assets/security.svg';
 export default {
       workshops:[
             {
+                  id:'web-development',
                   name:'Web Development',
                   details:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio nec.',
                   image:web, 
@@ -23,6 +24,7 @@ export default {
                   imageWidth:'90%'
             },
             {
+                  id:'arduino',
                   name:'Arduino',
                   details:'Are you new to robotics and arduino ? Don\'t know where to start with ? Well then,this workshop is for you.',
                   image:arduino, 
@@ -35,6 +37,7 @@ export default {
                   imageWidth:'100%'
             },
             {
+                  id:'artificial-intelligence',
                   name:'Artificial Intelligence',
                   details:'Do you keep hearing about Artificial Intelligence? What\'s all the fuss about it ? Come find out..!',
                   image:ai, 
@@ -47,6 +50,7 @@ export default {
                   imageWidth:'90%'
             },
             {
+                  id:'cryptography-techniques',
                   name:'Cryptography Techniques Using Cryptool',
                   price:'749',
                   date:'Jan 13',
@@ -57,6 +61,7 @@ export default {
                   imageWidth:'90%'
             },
             {
+                  id:'internet-of-things',
                   name:'Internet Of Things',
                   price:'999',
                   date:'Jan 13',
@@ -67,6 +72,7 @@ export default {
                   imageWidth:'90%'
             },
             {
+                  id:'network-security',
                   name:'Network Security By Nokia', 
                   price:'749',
                   date:'Jan 13',

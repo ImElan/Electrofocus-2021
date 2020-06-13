@@ -1,8 +1,13 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+
 import Home from './Pages/Home';
 import WorkShop from './Pages/WorkShop';
+import IndividualWorkShop from './Pages/IndividualWorkShop';
 import Event from './Pages/Event';
+
+import findWorkShop from './Helpers/findWorkShop';
+
 import './sass/main.scss';
 
 function App() {
@@ -18,6 +23,15 @@ function App() {
                         exact
                         path='/workshops'
                         render= {() =>  <WorkShop />}
+                  />
+                  <Route 
+                        exact
+                        path='/workshops/:workshop_id'
+                        render= {(routeProps) =>  {
+                              const id = routeProps.match.params.workshop_id;
+                              const workshop = findWorkShop(id);
+                              return <IndividualWorkShop {...workshop} />;
+                        }}
                   />
                   <Route 
                         exact
