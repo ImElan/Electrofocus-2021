@@ -44,7 +44,8 @@ class SingleWorkShopInfoCard extends Component {
                               style={
                                           {
                                                 gridColumn:`${imagePosition} / span 1`,
-                                                paddingLeft: imagePadding
+                                                paddingLeft: imagePadding,
+                                                paddingRight: contentPadding
                                           }
                                     }
                         >
@@ -60,7 +61,8 @@ class SingleWorkShopInfoCard extends Component {
                               style={
                                           {     
                                                 gridColumn:`${contentPosition} / span 1`,
-                                                paddingLeft: contentPadding
+                                                paddingLeft: contentPadding,
+                                                paddingRight: imagePadding
                                           }
                                     }
                         >

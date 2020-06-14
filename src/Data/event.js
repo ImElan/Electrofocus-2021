@@ -30,7 +30,30 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:c_struct,
                   imageWidth:'90%',
-                  icon:'code'
+                  icon:'code',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:'Round 3',
+                              roundName:'Interview',
+                              rule:'In this round, the candidates will be tested in each and every aspects required to face the software company interview.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'CrypTech',
@@ -42,7 +65,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:crypt_tech,
                   imageWidth:'90%',
-                  icon:'cryptography'
+                  icon:'cryptography',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Circuitology',
@@ -54,7 +95,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:circuitology,
                   imageWidth:'80%',
-                  icon:'circuit'
+                  icon:'circuit',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Liaise The Link',
@@ -66,7 +125,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:liaise_the_link,
                   imageWidth:'80%',
-                  icon:'wifi'
+                  icon:'wifi',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Binary Battle',
@@ -78,7 +155,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:binary_battle,
                   imageWidth:'90%',
-                  icon:'code-1'
+                  icon:'code-1',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Line Follower',
@@ -90,7 +185,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:line_follower,
                   imageWidth:'90%',
-                  icon:'robot'
+                  icon:'robot',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Work The Network',
@@ -102,7 +215,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:work_the_network,
                   imageWidth:'80%',
-                  icon:'router'
+                  icon:'router',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             }
       ],
       nonTechEvents:[
@@ -116,7 +247,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:ship_wreck,
                   imageWidth:'90%',
-                  icon:'actor'
+                  icon:'actor',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Mock IPL Bidding',
@@ -128,7 +277,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:mock_ipl_bidding,
                   imageWidth:'80%',
-                  icon:'cultures'
+                  icon:'cultures',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Voice Over',
@@ -140,7 +307,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:voice_over,
                   imageWidth:'90%',
-                  icon:'studio'
+                  icon:'studio',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Just A Minute',
@@ -152,7 +337,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:just_a_minute,
                   imageWidth:'80%',
-                  icon:'music-and-multimedia'
+                  icon:'music-and-multimedia',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Fifa',
@@ -164,7 +367,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:fifa,
                   imageWidth:'90%',
-                  icon:'games'
+                  icon:'games',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Rubik\'s Cube',
@@ -176,7 +397,25 @@ export default {
                   venue:'Lecture Hall Complex 102',
                   infoImage:rubiks_cube,
                   imageWidth:'90%',
-                  icon:'rubik'
+                  icon:'rubik',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
             {
                   name:'Math Maverick',
@@ -187,8 +426,26 @@ export default {
                   time:'12.30 PM',
                   venue:'Lecture Hall Complex 102',
                   infoImage:math_maverick,
-                  imageWidth:'80%',
-                  icon:'abacus'
+                  imageWidth:'60%',
+                  icon:'abacus',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:''
+                        },
+                  ]
             },
       ]
 }
