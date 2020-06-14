@@ -51,7 +51,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -81,7 +81,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -111,7 +111,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -141,7 +141,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -171,7 +171,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -201,7 +201,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -231,7 +231,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             }
@@ -263,7 +263,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -293,7 +293,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -323,7 +323,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -353,7 +353,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -383,7 +383,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -413,7 +413,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },
@@ -443,7 +443,7 @@ export default {
                         {
                               round:null,
                               roundName:'Result',
-                              rule:''
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
                         },
                   ]
             },

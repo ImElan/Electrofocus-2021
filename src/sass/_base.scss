@@ -52,6 +52,10 @@ body {
             grid-template-rows: 80vh repeat(2,min-content);
       }
 
+      &--individualEvent{
+            grid-template-rows: 80vh repeat(2,min-content);
+      }
+
       &--techNonTech {
             grid-template-rows: min-content 1fr;
       }
