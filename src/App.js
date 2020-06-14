@@ -8,6 +8,7 @@ import Event from './Pages/Event';
 import IndividualEvent from './Pages/IndividualEvent';
 import TechEvents from './Pages/TechEvents';
 import NonTechEvents from './Pages/NonTechEvents';
+import RegisterPage from './Pages/RegisterPage';
 
 import findWorkShop from './Helpers/findWorkShop';
 import findEvent from './Helpers/findEvent';
@@ -69,6 +70,11 @@ function App() {
                               const event = findEvent(id,'nonTechEvents');
                               return <IndividualEvent {...event} />;
                         }}
+                  />
+                  <Route
+                        exact
+                        path='/register'
+                        render={ () => <RegisterPage />}
                   />
                   <Route 
                         exact

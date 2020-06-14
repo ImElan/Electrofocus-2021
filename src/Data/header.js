@@ -2,6 +2,7 @@ import robot from '../assets/header.png';
 import workshop from '../assets/workshop.svg';
 import tech from '../assets/tech.svg';
 import nonTech from '../assets/nonTech.svg';
+import register from '../assets/register.svg';
 
 const homePageHeader = {
       title:'ElectroFocus',
@@ -35,4 +36,18 @@ const nonTechEventPageHeader = {
       imageWidth:'90%'
 }
 
-export {homePageHeader,workShopPageHeader,techEventPageHeader,nonTechEventPageHeader};
+const registerPageHeader = {
+      title:'The Ultimate Platform',
+      content:'A great opportunity to level up your knowledge and show your talents. Come Join Us',
+      isHomePage:false,
+      image:register,
+      imageWidth:'90%'
+}
+
+export {
+      homePageHeader,
+      workShopPageHeader,
+      techEventPageHeader,
+      nonTechEventPageHeader,
+      registerPageHeader
+};

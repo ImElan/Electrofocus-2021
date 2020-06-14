@@ -59,5 +59,9 @@ body {
       &--techNonTech {
             grid-template-rows: min-content 1fr;
       }
+
+      &--register {
+            grid-template-rows: 80vh repeat(2,min-content);
+      }
 }
 

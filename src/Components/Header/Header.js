@@ -1,6 +1,8 @@
 import React,{Component} from 'react';
 import Navbar from '../Navbar/Navbar';
 
+import { NavLink } from 'react-router-dom';
+
 class Header extends Component {
       render() {
             const {title,content,image,isHomePage,imageWidth} = this.props;
@@ -11,7 +13,7 @@ class Header extends Component {
                               <h1 className='heading--1 heading--1-dark'>{title}</h1>
                               <h3 className='heading--3 heading--3-dark'>{content}</h3>
                               {
-                                    isHomePage && <button className='btn header__content--btn header__content--btn_secondary'>Register Now</button>
+                                    isHomePage && <NavLink exact to='/register' className='btn header__content--btn header__content--btn_secondary'>Register Now</NavLink>
                               }
                         </div>
                         <div className='header__image' style={{width:`${isHomePage ? 'auto':'100%'}`}}>

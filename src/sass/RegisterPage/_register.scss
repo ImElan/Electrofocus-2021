@@ -1,0 +1,8 @@
+.register {
+      grid-column: center-start / center-end;
+      background-color: turquoise;
+      display: grid;
+      margin: 5rem 0 10rem 0;
+      grid-template-rows: minmax(60rem,min-content);
+      grid-template-columns: repeat(3,1fr);
+}

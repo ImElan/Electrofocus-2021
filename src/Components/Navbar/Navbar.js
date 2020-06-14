@@ -25,7 +25,13 @@ class Navbar extends Component {
                         <ul className='navbar__nav'>
                              {items.map(item => <NavbarItem name={item.name} link={item.link} key={item.name} />)} 
                              <li className='navbar__item'>
-                                    <a href='/' className='btn navbar__link--register'>Register</a>
+                                    <NavLink 
+                                          exact
+                                          to='/register' 
+                                          className='btn navbar__link--register'
+                                    >
+                                          Register
+                                    </NavLink>
                               </li>
                         </ul>
                   </section>
