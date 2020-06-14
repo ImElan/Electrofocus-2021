@@ -7,7 +7,6 @@ import RegisterCardsContainer from '../Components/RegisterPage/RegisterCardsCont
 
 import { registerPageHeader } from '../Data/header';
 import feedbacks from '../Data/feedback';
-import registerData from '../Data/register';
 import register from '../Data/register';
 
 class RegisterPage extends Component {

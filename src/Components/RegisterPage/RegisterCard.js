@@ -13,6 +13,7 @@ class RegisterCard extends Component {
                         <h2 
                               className='heading--2 heading--2-dark text-center register__title'
                               style={{
+                                    boxShadow:`0 0 15px ${color}`,
                                     backgroundColor:color
                               }}
                         >
