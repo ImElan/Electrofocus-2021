@@ -7,13 +7,15 @@ import RegisterCardsContainer from '../Components/RegisterPage/RegisterCardsCont
 
 import { registerPageHeader } from '../Data/header';
 import feedbacks from '../Data/feedback';
+import registerData from '../Data/register';
+import register from '../Data/register';
 
 class RegisterPage extends Component {
       render() {
             return(
                   <div className='container container--register'>
                         <Header {...registerPageHeader} />
-                        <RegisterCardsContainer />
+                        <RegisterCardsContainer {...register} />
                         <FeedBacks {...feedbacks} />
                         <Footer />
                   </div>

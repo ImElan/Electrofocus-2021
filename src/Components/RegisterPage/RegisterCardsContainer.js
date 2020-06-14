@@ -1,10 +1,14 @@
 import React,{ Component } from 'react';
+import RegisterCard from './RegisterCard';
 
 class RegisterCardsContainer extends Component {
       render() {
+            const { registerDetails } = this.props;
             return(
                   <div className='register'>
-                        Register Cards Goes Here.
+                        { registerDetails.map( (singleRegisterBox,index) => (
+                              <RegisterCard {...singleRegisterBox} key={index} />
+                        )) }
                   </div>
             )
       }

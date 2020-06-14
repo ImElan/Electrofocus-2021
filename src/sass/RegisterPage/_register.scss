@@ -1,8 +1,101 @@
 .register {
       grid-column: center-start / center-end;
-      background-color: turquoise;
       display: grid;
-      margin: 5rem 0 10rem 0;
+      margin: 5rem 0 15rem 0;
       grid-template-rows: minmax(60rem,min-content);
       grid-template-columns: repeat(3,1fr);
+      column-gap: 1rem;
+
+      &__card {
+            display: grid;
+            grid-template-rows: repeat(4,min-content);
+            row-gap: 2.5rem;
+            padding: 0 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 2rem rgba($color-black,0.15);
+            position: relative;
+      }
+
+      &__title {
+            margin: 3rem 0 0 0;
+            padding: 1.6rem 0;
+            color: $color-white;
+            border-radius: 0.5rem;
+            box-shadow: 0 0 2rem rgba($color-black,0.15);
+      }
+
+      &__price {
+            justify-self: center;
+            font-family: $font-display;
+            font-weight: 400;
+            font-size: 3rem;
+            
+      }
+
+      &__rupeeSymbol {
+            font-size: 7rem;
+            line-height: 1;
+            color: $color-grey-dark-3;
+            margin-right: 1rem;
+            font-weight: 400;
+            font-family: $font-display;
+      }
+
+      &__infos {
+            display: grid;
+            row-gap: 1.2rem;
+            padding: 1.5rem 0;
+      }
+
+      &__info {
+            display: grid;
+            grid-template-columns: min-content 1fr;
+            column-gap: 1.5rem;
+      }
+
+      &__infoSvg {
+            height: 3rem;
+            width: 3rem;
+      }
+
+      &__infoDetail {
+            align-self: center;
+            font-size: 1.8rem;
+            font-family: $font-primary;
+            color: $color-grey-dark;
+            line-height: 1.4;
+      }
+
+      &__imageContainer {
+            width: 15rem;
+            height: 15rem;
+            justify-self: center;
+            align-self: center;
+            display: flex;
+            margin-bottom: 4rem;
+      }
+
+      &__image {
+            width: 100%;
+            align-items: center;
+      }
+
+      &__button {
+            display: flex;
+            justify-content: center;
+            width: 60%;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%,50%);
+            box-shadow: 0 0 2rem rgba($color-black,0.15);
+      }
+
+      &__buttonArrow {
+            height: 2.5rem;
+            width: 2.5rem;
+            fill: $color-white;
+            pointer-events: none;
+            margin-left: 1rem;
+      }
 }
