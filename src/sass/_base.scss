@@ -61,6 +61,10 @@ body {
       }
 
       &--register {
+            grid-template-rows: 80vh repeat(3,min-content);
+      }
+
+      &--contact {
             grid-template-rows: 80vh repeat(2,min-content);
       }
 }

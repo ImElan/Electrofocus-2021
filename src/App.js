@@ -9,6 +9,7 @@ import IndividualEvent from './Pages/IndividualEvent';
 import TechEvents from './Pages/TechEvents';
 import NonTechEvents from './Pages/NonTechEvents';
 import RegisterPage from './Pages/RegisterPage';
+import ContactPage from './Pages/ContactPage';
 
 import findWorkShop from './Helpers/findWorkShop';
 import findEvent from './Helpers/findEvent';
@@ -75,6 +76,11 @@ function App() {
                         exact
                         path='/register'
                         render={ () => <RegisterPage />}
+                  />
+                  <Route
+                        exact
+                        path='/contact/:issue_id'
+                        render={ (routeProps) => <ContactPage {...routeProps} />}
                   />
                   <Route 
                         exact

@@ -9,7 +9,7 @@ class Navbar extends Component {
                   {name:'Home',link:''},
                   {name:'Workshops',link:'/workshops'},
                   {name:'Events',link:'/tech-nonTech-events'},
-                  {name:'Contact',link:'/contact'}
+                  {name:'Contact',link:'/contact/faq'}
             ]
       }
       render() {

@@ -30,7 +30,7 @@ function Home() {
                 <WorkShops {...workshop} />
                 <Sponsors {...sponsor} />
                 <Events {...event} />
-                <FrequentlyAskedQuestions {...faq} />
+                <FrequentlyAskedQuestions {...faq} padding='8rem 0'/>
                 <FeedBacks {...feedback}/>
                 <Footer />
           </div>

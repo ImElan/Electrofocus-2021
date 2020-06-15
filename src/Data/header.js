@@ -3,6 +3,7 @@ import workshop from '../assets/workshop.svg';
 import tech from '../assets/tech.svg';
 import nonTech from '../assets/nonTech.svg';
 import register from '../assets/register.svg';
+import contact from '../assets/contact.svg';
 
 const homePageHeader = {
       title:'ElectroFocus',
@@ -44,10 +45,19 @@ const registerPageHeader = {
       imageWidth:'90%'
 }
 
+const contactPageHeader = {
+      title:'Contact Us',
+      content:'You\'ve got questions ? We\'ve got answers.',
+      isHomePage:false,
+      image:contact,
+      imageWidth:'90%'
+}
+
 export {
       homePageHeader,
       workShopPageHeader,
       techEventPageHeader,
       nonTechEventPageHeader,
-      registerPageHeader
+      registerPageHeader,
+      contactPageHeader      
 };

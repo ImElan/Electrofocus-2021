@@ -1,6 +1,5 @@
 .frequentlyAskedQuestions {
       grid-column: full-start/full-end;
-      padding: 8rem 0;
       display: grid;
       grid-template-columns: minmax(min-content,90rem);
       row-gap: 2rem;
