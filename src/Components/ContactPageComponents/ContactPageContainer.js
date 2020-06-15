@@ -1,6 +1,7 @@
 import React,{Component } from 'react';
 
 import FrequentlyAskedQuestions from '../HomePageComponents/FAQ/FrequentlyAskedQuestions';
+import ContactForm from './ContactForm';
 
 import faq from '../../Data/faq';
 import { NavLink } from 'react-router-dom';
@@ -12,6 +13,8 @@ class ContactPageContainer extends Component {
             let renderComponent;
             if(issueId === 'faq') {
                   renderComponent = <FrequentlyAskedQuestions {...faq} padding='2rem 0' />;
+            } else {
+                  renderComponent = <ContactForm />
             }
             return(
                   <div className='contact'>
