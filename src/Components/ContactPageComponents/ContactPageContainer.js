@@ -9,7 +9,6 @@ class ContactPageContainer extends Component {
       render() {
             const { match } = this.props;
             const issueId = match.params.issue_id;
-            console.log(issueId);
             let renderComponent;
             if(issueId === 'faq') {
                   renderComponent = <FrequentlyAskedQuestions {...faq} padding='2rem 0' />;
