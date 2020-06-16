@@ -71,5 +71,9 @@ body {
       &--accomodation {
             grid-template-rows: 80vh repeat(2,min-content);
       }
+      
+      &--pageNotFound {
+            grid-template-rows: 100vh;
+      }
 }
 

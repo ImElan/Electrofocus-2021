@@ -17,6 +17,7 @@ import findWorkShop from './Helpers/findWorkShop';
 import findEvent from './Helpers/findEvent';
 
 import './sass/main.scss';
+import PageNotFound from './Pages/PageNotFound';
 
 function App() {
   return (
@@ -96,7 +97,7 @@ function App() {
                   />
                   <Route 
                         exact
-                        render= {() => <h1>404 Page not found..</h1> }
+                        render= {() => <PageNotFound /> }
                   />
             </Switch>
       </div>
