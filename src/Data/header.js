@@ -4,6 +4,7 @@ import tech from '../assets/tech.svg';
 import nonTech from '../assets/nonTech.svg';
 import register from '../assets/register.svg';
 import contact from '../assets/contact.svg';
+import accomodation from '../assets/accomodation.svg';
 
 const homePageHeader = {
       title:'ElectroFocus',
@@ -53,11 +54,20 @@ const contactPageHeader = {
       imageWidth:'90%'
 }
 
+const accomodationPageHeader = {
+      title:'Accomodation',
+      content:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+      isHomePage:false,
+      image:accomodation,
+      imageWidth:'90%'
+}
+
 export {
       homePageHeader,
       workShopPageHeader,
       techEventPageHeader,
       nonTechEventPageHeader,
       registerPageHeader,
-      contactPageHeader      
+      contactPageHeader ,
+      accomodationPageHeader     
 };

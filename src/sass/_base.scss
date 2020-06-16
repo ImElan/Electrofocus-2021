@@ -67,5 +67,9 @@ body {
       &--contact {
             grid-template-rows: 80vh repeat(2,min-content);
       }
+
+      &--accomodation {
+            grid-template-rows: 80vh repeat(2,min-content);
+      }
 }
 
