@@ -11,12 +11,22 @@ class ContactForm extends Component {
                               <h2 className='contact__formHeading'>Contact Us</h2>
                         </div>
                         <div className='contact__inputGroup'>
-                              <label className='contact__label' htmlFor='#name'>Name</label>
+                              <label className='contact__label' htmlFor='name'>Name</label>
                               <input className='contact__input' type='text' placeholder='Chandler Bing' id='name' />
                               <p className='contact__hint'>Hint : Chandler Bing</p>
                         </div>
                         <div className='contact__inputGroup'>
-                              <label className='contact__label' htmlFor='#email'>Email</label>
+                              <label className='contact__label' htmlFor='college'>College</label>
+                              <input 
+                                    className='contact__input' 
+                                    type='text' 
+                                    placeholder='Central Perk' 
+                                    id='college' 
+                              />
+                              <p className='contact__hint'>Hint : Central Perk</p>
+                        </div>
+                        <div className='contact__inputGroup'>
+                              <label className='contact__label' htmlFor='email'>Email</label>
                               <input 
                                     className='contact__input' 
                                     type='email' 
@@ -26,8 +36,9 @@ class ContactForm extends Component {
                               <p className='contact__hint'>Hint : chandlerbing@gmail.com</p>
                         </div>
                         <div className='contact__inputGroup'>
-                              <label className='contact__label' htmlFor='#message'>Message</label>
+                              <label className='contact__label' htmlFor='message'>Message</label>
                               <textarea
+                                    id='message'
                                     rows='8'
                                     className='contact__input contact__input--textArea'
                                     style={{resize:'none'}}

@@ -16,7 +16,13 @@ class Footer extends Component {
                               >
                                     Accomodation
                               </NavLink>
-                              <li className='footer__list--item'>Contact Us</li>
+                              <NavLink 
+                                    exact
+                                    to='/contact/faq'
+                                    className='footer__list--item'
+                              >
+                                    Contact Us
+                              </NavLink>
                               <li className='footer__list--item'>Reviews</li>
                               <li className='footer__list--item'>FAQ</li>
                               <li className='footer__list--item'>Privacy Policy</li>
