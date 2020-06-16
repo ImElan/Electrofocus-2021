@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer';
 import ContactPageContainer from '../Components/ContactPageComponents/ContactPageContainer';
 
 import { contactPageHeader } from '../Data/header';
+import contactData from '../Data/contact';
 
 class ContactPage extends Component {
       render() {
@@ -12,7 +13,7 @@ class ContactPage extends Component {
             return(
                   <div className='container container--contact'>
                         <Header {...contactPageHeader} />
-                        <ContactPageContainer match={match} />
+                        <ContactPageContainer match={match} {...contactData} />
                         <Footer />
                   </div>
             )

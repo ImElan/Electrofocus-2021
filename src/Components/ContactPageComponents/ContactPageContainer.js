@@ -8,7 +8,7 @@ import { NavLink } from 'react-router-dom';
 
 class ContactPageContainer extends Component {
       render() {
-            const { match } = this.props;
+            const { match,title,subtitle_1,subtitle_2,inputs } = this.props;
             const issueId = match.params.issue_id;
             let isFaq = false;
             let renderComponent;
@@ -16,15 +16,14 @@ class ContactPageContainer extends Component {
                   renderComponent = <FrequentlyAskedQuestions {...faq} padding='2rem 0' />;
                   isFaq = true;
             } else {
-                  renderComponent = <ContactForm />
+                  renderComponent = <ContactForm inputs={inputs} />
             }
             return(
                   <div className='contact'>
-                        <h1 className='heading--1 heading--1-dark contact__heading'>Help Center</h1>
+                        <h1 className='heading--1 heading--1-dark contact__heading'>{title}</h1>
                         <hr className='contact__underline'></hr>
                         <h3 className='heading--3 heading--3-dark text-center'>
-                              { isFaq ? 'If you have a question look around through our FAQ below' :
-                                        'Please use this Contact Us form if you have a issue which is not mentioned in our FAQ Section.'}
+                              { isFaq ? subtitle_1:subtitle_2}
                         </h3>
                         <div className='contact__componentContainer'>
                               {renderComponent}
