@@ -1,20 +1,30 @@
-@import './base';
-@import './banner';
-@import './events';
-@import './features';
-@import './feedbacks';
-@import './footer';
-@import './frequentlyAskedQuestions';
-@import './header';
-@import './navbar';
-@import './sponsors';
-@import './typography';
-@import './workshops';
+@import './Base/base';
+@import './Base/typography';
+
+@import './Layouts/footer';
+@import './Layouts/header';
+@import './Layouts/navbar';
+
+@import './HomePage/banner';
+@import './HomePage/events';
+@import './HomePage/features';
+@import './HomePage/feedbacks';
+@import './HomePage/frequentlyAskedQuestions';
+@import './HomePage/sponsors';
+@import './HomePage/workshops';
+
 @import './WorkShopPage/workshopInfo';
+
 @import './EventsPage/techNonTech';
+
 @import './IndividualWorkShopPage/individualWorkShop';
+
 @import './IndividualEventPage/individualEvent';
+
 @import './RegisterPage/register';
+
 @import './ContactPage/contactPage';
+
 @import './AccomodationPage/accomodation';
+
 @import './PageNotFound/pageNotFound';
