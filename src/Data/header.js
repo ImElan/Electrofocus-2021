@@ -5,6 +5,7 @@ import nonTech from '../assets/nonTech.svg';
 import register from '../assets/register.svg';
 import contact from '../assets/contact.svg';
 import accomodation from '../assets/accomodation.svg';
+import privacyPolicy from '../assets/policy.svg';
 
 const homePageHeader = {
       title:'ElectroFocus',
@@ -62,6 +63,14 @@ const accomodationPageHeader = {
       imageWidth:'90%'
 }
 
+const privacyPolicyPageHeader = {
+      title:'Privacy Policy',
+      content:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio necessitatibus pariatur voluptatibus.Vero ipsum sapiente molestias accusamus rerum. Lorem, ipsum dolor sit amet consectetur adipisicing elit.',
+      isHomePage:false,
+      image:privacyPolicy,
+      imageWidth:'55%'
+}
+
 export {
       homePageHeader,
       workShopPageHeader,
@@ -69,5 +78,6 @@ export {
       nonTechEventPageHeader,
       registerPageHeader,
       contactPageHeader ,
-      accomodationPageHeader     
+      accomodationPageHeader,
+      privacyPolicyPageHeader   
 };

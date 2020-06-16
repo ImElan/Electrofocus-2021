@@ -11,6 +11,7 @@ import NonTechEvents from './Pages/NonTechEvents';
 import RegisterPage from './Pages/RegisterPage';
 import ContactPage from './Pages/ContactPage';
 import AccomodationPage from './Pages/AccomodationPage';
+import PrivacyPolicyPage from './Pages/PrivacyPolicyPage';
 
 import findWorkShop from './Helpers/findWorkShop';
 import findEvent from './Helpers/findEvent';
@@ -87,6 +88,11 @@ function App() {
                         exact
                         path='/accomodation'
                         render={ () => <AccomodationPage />}
+                  />
+                  <Route
+                        exact
+                        path='/privacyPolicy'
+                        render={ () => <PrivacyPolicyPage />}
                   />
                   <Route 
                         exact

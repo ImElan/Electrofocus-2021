@@ -11,6 +11,13 @@ class Footer extends Component {
                         <ul className='footer__list'>
                               <NavLink 
                                     exact
+                                    to='/'
+                                    className='footer__list--item'
+                              >
+                                    Home
+                              </NavLink>
+                              <NavLink 
+                                    exact
                                     to='/accomodation'
                                     className='footer__list--item'
                               >
@@ -23,9 +30,14 @@ class Footer extends Component {
                               >
                                     Contact Us
                               </NavLink>
-                              <li className='footer__list--item'>Reviews</li>
-                              <li className='footer__list--item'>FAQ</li>
-                              <li className='footer__list--item'>Privacy Policy</li>
+                              <li className='footer__list--item'>Schedule</li>
+                              <NavLink 
+                                    exact
+                                    to='/privacyPolicy'
+                                    className='footer__list--item'
+                              >
+                                    Privacy Policy
+                              </NavLink>
                         </ul>
                         <div className='footer__socialMedia'>
                               <a href='https://www.facebook.com/electrofocus.in/' className='footer__socialMedia_icon'>
