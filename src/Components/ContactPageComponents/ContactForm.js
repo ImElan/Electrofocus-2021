@@ -1,12 +1,13 @@
 import React,{ Component } from 'react';
-import idea from '../../assets/idea.svg';
+import email from '../../assets/email.svg';
+import send from '../../assets/send.svg';
 
 class ContactForm extends Component {
       render() {
             return(
                   <form className='contact__form'>
                         <div className='contact__headingContainer'>
-                              <img src={idea} className='contact__headingSvg' alt='Bulb' />
+                              <img src={email} className='contact__headingSvg' alt='Bulb' />
                               <h2 className='contact__formHeading'>Contact Us</h2>
                         </div>
                         <div className='contact__inputGroup'>
@@ -35,7 +36,7 @@ class ContactForm extends Component {
                               />
                         </div>
                         <button className='contact__sendButton'>
-                              <img src={idea} className='contact__sendSvg' alt='Bulb' />
+                              <img src={send} className='contact__sendSvg' alt='Bulb' />
                               Send
                         </button>
                   </form>

@@ -65,8 +65,8 @@
       }
 
       &__headingSvg {
-            height: 5rem;
-            width: 5rem;
+            height: 4rem;
+            width: 4rem;
       }
 
       &__formHeading {
@@ -74,10 +74,11 @@
             font-size: 3rem;
             color: #444444;
             justify-self: start;
-            margin-left: 1rem;
+            margin-left: 1.7rem;
       }
 
       &__inputGroup {
+            font-family: $font-primary;
             display: grid;
             row-gap: 0.65rem;
       }

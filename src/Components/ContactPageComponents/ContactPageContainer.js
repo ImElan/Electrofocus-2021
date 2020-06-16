@@ -24,7 +24,7 @@ class ContactPageContainer extends Component {
                         <hr className='contact__underline'></hr>
                         <h3 className='heading--3 heading--3-dark text-center'>
                               { isFaq ? 'If you have a question look around through our FAQ below' :
-                                        'Please use this contact Us form if you have a issue which is not mentioned in our FAQ Section.'}
+                                        'Please use this Contact Us form if you have a issue which is not mentioned in our FAQ Section.'}
                         </h3>
                         <div className='contact__componentContainer'>
                               {renderComponent}
