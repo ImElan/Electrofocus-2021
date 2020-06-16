@@ -16,8 +16,8 @@ class IndividualEventContainer extends Component {
                         </h2>
                         {/* RuleBoxes goes here */}
                         <div className='individualEvent__rulesContainer'>
-                              {rules.map( rule => (
-                                    <RuleBox {...rule} />
+                              {rules.map( (rule,index) => (
+                                    <RuleBox {...rule} key={index}/>
                               ))}
                         </div>
                         {/* Details Box Goes here */}
