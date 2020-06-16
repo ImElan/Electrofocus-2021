@@ -1,4 +1,6 @@
 import React,{Component} from 'react';
+import { NavLink } from 'react-router-dom';
+
 import social_media from '../../assets/social_sprite.svg';
 
 class Footer extends Component {
@@ -7,7 +9,13 @@ class Footer extends Component {
                   <section className='footer'>
                         <h2 className='heading--2 heading--2-light'>ElectroFocus</h2>
                         <ul className='footer__list'>
-                              <li className='footer__list--item'>Accomodation</li>
+                              <NavLink 
+                                    exact
+                                    to='/accomodation'
+                                    className='footer__list--item'
+                              >
+                                    Accomodation
+                              </NavLink>
                               <li className='footer__list--item'>Contact Us</li>
                               <li className='footer__list--item'>Reviews</li>
                               <li className='footer__list--item'>FAQ</li>
