@@ -3,20 +3,40 @@ import NavbarItem from './NavbarItem';
 import { NavLink } from 'react-router-dom';
 import { ReactComponent as Logo } from '../../assets/logo_2.svg';
 
+import navbar from '../../Data/navbar';
+
 class Navbar extends Component {
-      static defaultProps = {
-            items:[
-                  {name:'Home',link:''},
-                  {name:'Workshops',link:'/workshops'},
-                  {name:'Events',link:'/tech-nonTech-events'},
-                  {name:'Contact',link:'/contact/faq'}
-            ]
+      constructor(props) {
+            super(props);
+            this.state = {
+                  navOpen:false
+            }
+            this.handleNavBtnClick = this.handleNavBtnClick.bind(this);
+            this.navRef = React.createRef();
       }
+
+      componentDidUpdate() {
+            if(this.state.navOpen) {
+                  setTimeout(()=>{
+                        this.navRef.current.classList.add('navbar__nav--appear')
+                  },0);
+            }
+      }
+
+      handleNavBtnClick() {
+            this.setState({
+                  navOpen:!this.state.navOpen
+            })
+      }
+
       render() {
-            const {items} = this.props;
+            const { items } = navbar;
+            const { navOpen } = this.state;
             return(
                   <section className='navbar'>
-                        <div className='navbar__btn'>
+                        <div className={`navbar__btn ${navOpen && 'open'}`} 
+                              onClick={this.handleNavBtnClick}
+                        >
                               <div className='navbar__btn--icon'></div>
                         </div>
                         <NavLink className='navbar__logoContainer' to='/'>
@@ -25,7 +45,7 @@ class Navbar extends Component {
                               </div>
                               <h2 className='heading--2 heading--2-primary'>ElectroFocus</h2>
                         </NavLink>
-                        <ul className='navbar__nav'>
+                        <ul className={`navbar__nav ${navOpen && 'navbar__nav--show'}`} ref={this.navRef} >
                              {items.map(item => <NavbarItem name={item.name} link={item.link} key={item.name} />)} 
                              <li className='navbar__item navbar__item--register'>
                                     <NavLink 
