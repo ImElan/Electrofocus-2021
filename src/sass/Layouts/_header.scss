@@ -7,6 +7,7 @@
 
       @include respond(tab-port) {
             grid-template-rows: min-content repeat(2,1fr);
+            margin-bottom: 6rem;
             grid-template-columns: 1fr;
       }
 
@@ -26,11 +27,12 @@
 
             @include respond(tab-port) {
                   grid-column: 1 / -1;
-                  padding: 3rem 8rem;
+                  grid-template-columns: minmax(min-content,1fr);
             }
 
             @include respond(phone) {
                   padding: 5rem;
+                  padding-bottom: 2rem;
             }
             
 
@@ -62,7 +64,11 @@
             @include respond(tab-port) {
                   grid-row: 3 / span 1;
                   grid-column: 1 / -1;
-                  margin-bottom: 6rem;
+                  width: 90%;
+            }
+
+            @include respond(phone) {
+                  width: 90%;
             }
 
             &--img {

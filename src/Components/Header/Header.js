@@ -16,7 +16,7 @@ class Header extends Component {
                                     isHomePage && <NavLink exact to='/register' className='btn header__content--btn header__content--btn_secondary'>Register Now</NavLink>
                               }
                         </div>
-                        <div className='header__image' style={{width:`${isHomePage ? 'auto':'100%'}`}}>
+                        <div className='header__image'>
                               <img 
                                     className='header__image--img' 
                                     style={{width:imageWidth}} 

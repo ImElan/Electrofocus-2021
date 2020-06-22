@@ -29,11 +29,11 @@ html {
       font-size: 62.5%;
 
       @include respond(tab-land) {
-            font-size: 56.25%;
+            font-size: 60%;
       }
 
       @include respond(tab-port) {
-            font-size: 50%;
+            font-size: 56.25%;
       }
 }
 
@@ -68,7 +68,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(2,min-content);
+                  grid-template-rows: 100vh repeat(2,min-content);
             }
       }
 
@@ -80,7 +80,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(2,min-content);
+                  grid-template-rows: 100vh repeat(2,min-content);
             }
       }
 
@@ -92,7 +92,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(2,min-content);
+                  grid-template-rows: 100vh repeat(2,min-content);
 
             }
       }
@@ -109,7 +109,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(3,min-content);
+                  grid-template-rows: 100vh repeat(3,min-content);
             }
       }
 
@@ -121,7 +121,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(2,min-content);
+                  grid-template-rows: 100vh repeat(2,min-content);
             }
       }
 
@@ -133,7 +133,7 @@ body {
             }
 
             @include respond(tab-port) {
-                  grid-template-rows: 80vh repeat(2,min-content);
+                  grid-template-rows: 100vh repeat(2,min-content);
             }
       }
       

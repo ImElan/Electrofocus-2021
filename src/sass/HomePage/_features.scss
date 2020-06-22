@@ -9,14 +9,31 @@
             grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
       }
 
+      @include respond(phone) {
+            margin: 5rem 0;
+            grid-gap: 4rem;
+      }
+
       &__heading {
             margin: 2rem 0;
             grid-column: center-start/center-end;
             text-align: center;
+
+            @include respond(tab-port) {
+                  margin-top: 1rem;
+            }
       }
 
       &__container {
             grid-column: center-start/center-end;
+            
+            @include respond(tab-port) {
+                  margin-top: 7rem;
+            }
+
+            @include respond(phone) {
+                  margin-top: 4rem;
+            }
       }
 }
 

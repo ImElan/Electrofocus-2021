@@ -64,6 +64,10 @@
                   right: 5rem;
             }
 
+            @include respond(phone) {
+                  right: 3rem;
+            }
+
             &--show {
                  display: grid;
             }
@@ -184,6 +188,10 @@
 
             @include respond(tab-port) {
                   right: 7rem;
+            }
+
+            @include respond(phone) {
+                  right: 3rem;
             }
 
             &--icon {
