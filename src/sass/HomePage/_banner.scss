@@ -10,6 +10,11 @@
       padding: 5rem;
       margin: 6rem 0;
 
+      @include respond(tab-port) {
+            grid-template-columns: 1fr;
+            padding: 3.5rem;
+      }
+
       &__image {
             grid-column: 1 / span 1;
 
@@ -23,6 +28,15 @@
             display: grid;
             row-gap: 6rem;
             font-family: $font-primary;
+
+            @include respond(tab-port) {
+                  grid-template-columns: repeat(2,1fr);
+                  column-gap: 3rem;
+            }
+
+            @include respond(phone) {
+                  grid-template-columns: 1fr;
+            }
 
             &--date {
                   display: grid;
