@@ -7,8 +7,7 @@
 
       @include respond(tab-land) {
             grid-template-columns: 1fr;
-            position: relative;
-            padding: 4rem 2rem;
+            padding: 4rem 2rem 0 2rem;
       }
 
       &__logoContainer {

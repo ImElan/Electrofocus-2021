@@ -5,6 +5,11 @@
       grid-template-rows: min-content 1fr;
       grid-template-columns: 6fr 4fr;
 
+      @include respond(tab-port) {
+            grid-template-rows: min-content repeat(2,1fr);
+            grid-template-columns: 1fr;
+      }
+
       &__content {
             grid-column: 1 / span 1;
             display: grid;
@@ -14,6 +19,20 @@
             padding: 6rem;
             justify-content: center;
             align-content: center;
+
+            @include respond(tab-land) {
+                  padding: 3rem;
+            }
+
+            @include respond(tab-port) {
+                  grid-column: 1 / -1;
+                  padding: 3rem 8rem;
+            }
+
+            @include respond(phone) {
+                  padding: 5rem;
+            }
+            
 
             &--btn {
                   border-radius: 4px;
@@ -39,6 +58,12 @@
             display: flex;
             justify-content: center;
             align-items: center;
+
+            @include respond(tab-port) {
+                  grid-row: 3 / span 1;
+                  grid-column: 1 / -1;
+                  margin-bottom: 6rem;
+            }
 
             &--img {
                   padding: 2rem;
