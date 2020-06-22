@@ -16,6 +16,9 @@ class Navbar extends Component {
             const {items} = this.props;
             return(
                   <section className='navbar'>
+                        <div className='navbar__btn'>
+                              <div className='navbar__btn--icon'></div>
+                        </div>
                         <NavLink className='navbar__logoContainer' to='/'>
                               <div className='navbar__imageContainer'>
                                     <Logo className='navbar__image' />
