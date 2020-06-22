@@ -2,7 +2,7 @@
       grid-column: 1/-1;
       display: grid;
       padding: 2rem;
-      grid-template-columns: minmax(min-content,1.5fr) minmax(min-content,2fr);
+      grid-template-columns: min-content minmax(min-content,1fr) 2fr;
       align-items: center;
 
       &__logoContainer {
@@ -25,7 +25,10 @@
       }
 
       &__nav {
-            display: flex;
+            grid-column: 3 / span 1;
+            display: grid;
+            grid-template-columns: repeat(5,min-content);
+            column-gap: 5rem;
             justify-content: space-evenly;
             list-style: none;
             font-family: $font-primary;
