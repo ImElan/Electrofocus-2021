@@ -24,7 +24,7 @@ class Navbar extends Component {
                         </NavLink>
                         <ul className='navbar__nav'>
                              {items.map(item => <NavbarItem name={item.name} link={item.link} key={item.name} />)} 
-                             <li className='navbar__item'>
+                             <li className='navbar__item navbar__item--register'>
                                     <NavLink 
                                           exact
                                           to='/register' 
