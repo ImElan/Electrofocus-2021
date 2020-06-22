@@ -5,6 +5,10 @@
       margin: 8rem 0;
       grid-gap: 6rem;
 
+      @include respond(tab-land) {
+            grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+      }
+
       &__heading {
             margin: 2rem 0;
             grid-column: center-start/center-end;
