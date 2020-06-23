@@ -7,8 +7,8 @@ class Events extends Component {
             return(
                   <section className='events'>
                         <div className='events__content'>
-                              <h2 className='heading--2 heading--2-light'>{title}</h2>
-                              <h3 className='heading--3 heading--3-light events__content--subtitle'>{subTitle}</h3>
+                              <h2 className='heading--2 heading--2-light text-center'>{title}</h2>
+                              <h3 className='heading--3 heading--3-light events__content--subtitle text-center'>{subTitle}</h3>
                               <button className='btn events__content--btn events__content--btn_secondary'>Explore Events</button>
                         </div>
                         <div className='events__list events__list--technical'>

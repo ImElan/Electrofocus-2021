@@ -11,6 +11,12 @@
             list-style: none;
             display: flex;
 
+            @include respond(phone-land) {
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+            }
+
             &--item {
                   text-decoration: none;
                   cursor: pointer;
@@ -21,6 +27,13 @@
                   letter-spacing: 1px;
                   font-family: $font-primary;
                   position: relative;
+
+                  @include respond(phone-land) {
+                        font-size: 2rem;
+                        &:not(:first-child) {
+                              margin-top: 1.5rem;
+                        }
+                  }
 
                   &::after {
                         content: '';
@@ -67,5 +80,6 @@
             margin: 0 2rem;
             letter-spacing: 1px;
             font-family: $font-primary;
+            text-align: center;
       }
 }
