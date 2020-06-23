@@ -2,7 +2,8 @@
 // MEDIA QUERIES
 /*
       0-600px - phone
-      600-900px - Tablet portrait
+      600-750px - phone-land
+      750-900px - Tablet portrait
       900 - 1200px - Tablet landscape
       1200+ - Desktop // default
 */
@@ -13,9 +14,16 @@
                   @content
             };
       }
+
+      @if $breakpoint == phone-land {
+            @media (max-width:46.875em) {
+                  @content
+            };
+      }
+
       @if $breakpoint == tab-port {
             @media (max-width:56.25em) {      
-                        @content
+                  @content
             };
       }
       @if $breakpoint == tab-land {

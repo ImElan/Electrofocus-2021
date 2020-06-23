@@ -6,8 +6,11 @@
       grid-template-columns: 6fr 4fr;
 
       @include respond(tab-port) {
-            grid-template-rows: min-content repeat(2,1fr);
-            margin-bottom: 6rem;
+            grid-template-columns: 1fr 1fr;
+      }
+
+      @include respond(phone-land) {
+            grid-template-rows: repeat(3,min-content);
             grid-template-columns: 1fr;
       }
 
@@ -21,20 +24,18 @@
             justify-content: center;
             align-content: center;
 
-            @include respond(tab-land) {
-                  padding: 3rem;
+            @include respond(tab-port) {
+                  grid-template-columns: minmax(min-content,max-content);
+                  padding: 2.5rem 6rem;
             }
 
-            @include respond(tab-port) {
+            @include respond(phone-land) {
                   grid-column: 1 / -1;
-                  grid-template-columns: minmax(min-content,1fr);
             }
 
             @include respond(phone) {
-                  padding: 5rem;
-                  padding-bottom: 2rem;
+                  padding: 2.5rem 3.5rem;
             }
-            
 
             &--btn {
                   border-radius: 4px;
@@ -61,14 +62,9 @@
             justify-content: center;
             align-items: center;
 
-            @include respond(tab-port) {
-                  grid-row: 3 / span 1;
+            @include respond(phone-land) {
                   grid-column: 1 / -1;
-                  width: 90%;
-            }
-
-            @include respond(phone) {
-                  width: 90%;
+                  margin-bottom: 5rem;
             }
 
             &--img {
