@@ -6,6 +6,10 @@
       display: grid;
       grid-template-columns: repeat(2,1fr);
 
+      @include respond(tab-port) {
+            grid-template-columns: 1fr;
+      }
+
       &__image {
             grid-column: 1 / span 1;
             align-self: center;
@@ -31,6 +35,10 @@
             padding: 2rem;
             padding-bottom: 0;
 
+            @include respond(phone-land) {
+                  row-gap: 0.6rem;
+            }
+
             &-review {
                   font-family: $font-display;
                   color: $color-grey-dark-3;
@@ -38,6 +46,10 @@
                   line-height: 1.3;
                   font-weight: 400;
                   position: relative;
+
+                  @include respond(phone-land) {
+                        font-size: 2rem;
+                  }
 
                   &::before,&::after {
                         content: '\0022';
@@ -69,6 +81,11 @@
                   height: 10rem;
                   width: 12rem;
                   border-radius: 50%;
+
+                  @include respond(phone-land) {
+                        height: 7rem;
+                        width: 9rem;
+                  }
             }
 
             &-details {
@@ -98,6 +115,10 @@
             text-align: center;
             height: 25%;
             align-items: center;
+
+            @include respond(phone-land) {
+                  margin:0 0 3.5rem 0;
+            }
       }
 
       &__button {
@@ -108,6 +129,10 @@
             margin: 0 0.5rem;
             box-shadow: 0 0.3rem 0.9rem 0 rgba($color: $color-black, $alpha: 0.35);   
             transition: all 0.25s;
+
+            @include respond(phone-land) {
+                  padding: 1.3rem;
+            }
 
             &,&:focus {
                   border: none;

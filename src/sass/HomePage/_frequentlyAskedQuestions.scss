@@ -6,6 +6,14 @@
       justify-content: center;
       align-content: center;
 
+      @include respond(phone-land) {
+            padding: 8rem 2rem !important;
+      }
+
+      @include respond(phone) {
+            padding: 8rem 2rem 2.5rem 2rem !important;
+      }
+
       &__questions {
             padding: 3rem;
             display: grid;
