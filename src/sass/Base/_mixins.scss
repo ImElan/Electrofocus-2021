@@ -18,12 +18,12 @@
       @if $breakpoint == phone-land {
             @media (max-width:46.875em) {
                   @content
-            }
+            };
       }
 
       @if $breakpoint == tab-port {
             @media (max-width:56.25em) {      
-                        @content
+                  @content
             };
       }
       @if $breakpoint == tab-land {

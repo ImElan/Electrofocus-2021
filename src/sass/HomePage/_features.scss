@@ -5,6 +5,19 @@
       margin: 8rem 0;
       grid-gap: 6rem;
 
+      @include respond(tab-land) {
+            grid-template-columns: repeat(auto-fit,minmax(28rem,1fr));
+      }
+
+      @include respond(tab-port) {
+            grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+            grid-gap: 3.5rem;
+      }
+
+      @include respond(phone) {
+            margin: 5.5rem 0;
+      }
+
       &__heading {
             margin: 2rem 0;
             grid-column: center-start/center-end;
