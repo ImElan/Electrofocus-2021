@@ -20,6 +20,10 @@
             background-image: linear-gradient(to right,$color-white 0%,rgba($color-white,0) 100%);
             z-index: 10;
             position: absolute;
+
+            @include respond(phone) {
+                  width: 10rem;
+            }
       }
 
       &::before {

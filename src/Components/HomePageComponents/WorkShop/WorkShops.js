@@ -11,7 +11,7 @@ class WorkShops extends Component {
                               <h1 className='features__heading heading--1 heading--1-dark'>WorkShops</h1>
                         </div>
                         <div className='workshops__cards'>
-                              {workshops.slice(0,3).map( (workshop,index) => ( 
+                              {workshops.slice(0,6).map( (workshop,index) => ( 
                                     <WorkShopCard {...workshop} key={index}/>
                               ))}
                         </div>

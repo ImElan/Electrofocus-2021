@@ -30,6 +30,7 @@
             }
 
             @include respond(phone-land) {
+                  margin-top: 2.5rem;
                   grid-column: 1 / -1;
             }
 

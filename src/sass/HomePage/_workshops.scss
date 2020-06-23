@@ -13,6 +13,11 @@
             display: grid;
             grid-gap: 7rem;
             grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
+            justify-content: center;
+
+            @include respond(tab-land) {
+                  grid-template-columns: repeat(auto-fit,minmax(30rem,35rem));
+            }
       }
 
       &__button {

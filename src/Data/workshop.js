@@ -1,6 +1,10 @@
 import web from '../assets/web_dev.png';
 import ai from '../assets/ai.png';
 import arduino from '../assets/arduino_workshop.jfif';
+import crypt from '../assets/homePage_crypto.jpg';
+import network from '../assets/homePage_network.jpg';
+import iot from '../assets/homePage_iot.jpg';
+
 import webdev from '../assets/web_development.svg';
 import ai_workshop from '../assets/artificial_intelligence.svg';
 import arduino_workshop from '../assets/circuit.svg';
@@ -88,6 +92,7 @@ export default {
             {
                   id:'cryptography-techniques',
                   name:'Cryptography Techniques Using Cryptool',
+                  image:crypt,
                   price:'749',
                   date:'Jan 13',
                   time:'9.00 AM',
@@ -114,6 +119,7 @@ export default {
             {
                   id:'internet-of-things',
                   name:'Internet Of Things',
+                  image:iot,
                   price:'999',
                   date:'Jan 13',
                   time:'9.00 AM',
@@ -138,6 +144,7 @@ export default {
             {
                   id:'network-security',
                   name:'Network Security By Nokia', 
+                  image:network,
                   price:'749',
                   date:'Jan 13',
                   time:'9.00 AM',
