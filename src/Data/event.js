@@ -268,36 +268,6 @@ export default {
                   ]
             },
             {
-                  name:'Mock IPL Bidding',
-                  id:'mock-ipl-bidding',
-                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
-                  price:null,
-                  date:'Jan 11',
-                  time:'12.30 PM',
-                  venue:'Lecture Hall Complex 102',
-                  infoImage:mock_ipl_bidding,
-                  imageWidth:'80%',
-                  icon:'cultures',
-                  studentsPerTeam:3,
-                  rules:[
-                        {
-                              round:'Round 1',
-                              roundName:'Questionnaire',
-                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
-                        },
-                        {
-                              round:'Round 2',
-                              roundName:'Short Coding',
-                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
-                        },
-                        {
-                              round:null,
-                              roundName:'Result',
-                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
-                        },
-                  ]
-            },
-            {
                   name:'Voice Over',
                   id:'voice-over',
                   infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
@@ -447,6 +417,36 @@ export default {
                         },
                   ]
             },
+            {
+                  name:'Mock IPL Bidding',
+                  id:'mock-ipl-bidding',
+                  infoDetails:'Nibh tellus molestie nunc non blandit. Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Mauris augue neque gravida in fermentum et sollicitudin ac orci. Est ultricies integer quis auctor elit sed vulputate. Et odio pellentesque diam volutpat. Ullamcorper velit sed ullamcorper morbi tincidunt ornare.',
+                  price:null,
+                  date:'Jan 11',
+                  time:'12.30 PM',
+                  venue:'Lecture Hall Complex 102',
+                  infoImage:mock_ipl_bidding,
+                  imageWidth:'80%',
+                  icon:'cultures',
+                  studentsPerTeam:3,
+                  rules:[
+                        {
+                              round:'Round 1',
+                              roundName:'Questionnaire',
+                              rule:'A questionnaire containing 20 questions,testing the understanding and level of knowledge in various concepts like pointers, functions, recursion, iteration etc.. of the candidate.The time duration will be 30 minutes.'
+                        },
+                        {
+                              round:'Round 2',
+                              roundName:'Short Coding',
+                              rule:'In this round, 3 conceptual short coding questions will be given to test the logical skills and reasoning capability of the candidate.The time duration will be 40 minutes.'
+                        },
+                        {
+                              round:null,
+                              roundName:'Result',
+                              rule:'Results are choosen based on candidate\'s level of understanding and time taken to answer each question.'
+                        },
+                  ]
+            }
       ]
 }
 
