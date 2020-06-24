@@ -2,9 +2,20 @@
       grid-column: center-start / center-end;
       display: grid;
       margin: 5rem 0 15rem 0;
-      grid-template-rows: minmax(60rem,min-content);
       grid-template-columns: repeat(3,1fr);
       column-gap: 2rem;
+      justify-self: center;
+      align-content: center;
+
+      @include respond(tab-land) {
+            grid-template-rows: repeat(3,min-content);
+            grid-template-columns: minmax(min-content,36rem);
+            row-gap: 8rem;
+      }
+
+      @include respond(phone-land) {
+            grid-template-columns: minmax(min-content,40rem);
+      }
 
       &__card {
             display: grid;
@@ -14,6 +25,10 @@
             border-radius: 0.5rem;
             box-shadow: 0 0 2rem rgba($color-black,0.15);
             position: relative;
+
+            @include respond(tab-land) {
+                  grid-column: 1 / -1;
+            }
       }
 
       &__title {
@@ -50,6 +65,9 @@
             display: grid;
             grid-template-columns: min-content 1fr;
             column-gap: 1.5rem;
+            &:last-child {
+                  margin-bottom: 1.4rem;
+            }
       }
 
       &__infoSvg {
@@ -88,6 +106,10 @@
             left: 50%;
             transform: translate(-50%,50%);
             box-shadow: 0 0 2rem rgba($color-black,0.15);
+
+            @include respond(phone) {
+                  width: 80%;
+            }
       }
 
       &__buttonArrow {

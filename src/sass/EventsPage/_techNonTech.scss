@@ -8,17 +8,14 @@
       @include respond(tab-land) {
             padding: 5rem;
             column-gap: 5rem;
-      }
-
-      @include respond(tab-port) {
-            padding: 10rem 4rem;
-      }
-
-      @include respond(phone-land) {
             grid-template-columns: 1fr;
             grid-template-rows: repeat(2,min-content);
             row-gap: 5rem;
             padding: 4rem;
+      }
+
+      @include respond(tab-port) {
+            padding: 10rem 4rem;
       }
 
       &__nonTechImageContainer {
@@ -31,7 +28,7 @@
             text-decoration: none;
             transition: all 0.2s;
 
-            @include respond(phone-land) {
+            @include respond(tab-land) {
                   grid-column: 1 / -1;
             }
 
@@ -68,7 +65,7 @@
             text-decoration: none;
             transition: all 0.2s;
 
-            @include respond(phone-land) {
+            @include respond(tab-land) {
                   grid-column: 1 / -1;
             }
 

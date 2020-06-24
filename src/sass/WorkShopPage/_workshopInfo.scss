@@ -15,6 +15,10 @@
             padding-top: 2.5rem;
       }
 
+      @include respond(phone) {
+            padding: 1rem;
+      }
+
       &__heading {
             display: grid;
             row-gap: 1rem;

@@ -27,14 +27,15 @@
             @include respond(tab-port) {
                   grid-template-columns: minmax(min-content,max-content);
                   padding: 2.5rem 6rem;
+                  margin-top: 3.5rem;
             }
 
             @include respond(phone-land) {
-                  margin-top: 2.5rem;
                   grid-column: 1 / -1;
             }
 
             @include respond(phone) {
+                  margin-top: 4.5rem;
                   padding: 2.5rem 3.5rem;
             }
 
