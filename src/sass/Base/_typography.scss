@@ -8,6 +8,14 @@
       font-size: 5rem;
       line-height: 1;
 
+      @include respond(phone-land) {
+            font-size: 4rem;
+      }
+
+      @include respond(phone) {
+            font-size: 3.5rem;
+      }
+
       &-dark {
             color: $color-grey-dark;
       }
