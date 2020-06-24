@@ -8,6 +8,14 @@
       border-radius: 2rem;
       margin-bottom: 10rem;
 
+      @include respond(tab-port) {
+            padding: 5rem;
+      }
+
+      @include respond(phone-land) {
+            padding: 3.5rem;
+      }
+
       &__rules {
             display: grid;
             row-gap: 2.5rem;

@@ -133,5 +133,13 @@
 
       &__requirementContainer,&__detailsContainer,&__button {
             margin-top: 6rem;
+
+            @include respond(tab-port) {
+                  margin-top: 4rem;
+            }
+
+            @include respond(phone-land) {
+                  margin-top: 2rem;
+            }
       }
 }

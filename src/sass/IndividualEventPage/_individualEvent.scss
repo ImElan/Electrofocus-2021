@@ -6,6 +6,18 @@
       grid-template-rows: repeat(3,min-content);
       row-gap: 4rem;
 
+      @include respond(tab-land) {
+            padding: 4.5rem;
+      }
+
+      @include respond(tab-port) {
+            padding: 2rem 1rem;
+      }
+
+      @include respond(phone-land) {
+            grid-column: full-start / full-end;
+      }
+
       &__rulesContainer {
             display: grid;
             padding: 2rem;   
