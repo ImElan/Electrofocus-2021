@@ -5,6 +5,16 @@
       padding-top: 10rem;
       grid-template-rows: repeat(2,min-content);
 
+      @include respond(tab-land) {
+            padding: 6rem;
+            padding-top: 3.5rem;
+      }
+
+      @include respond(tab-port) {
+            padding: 4rem;
+            padding-top: 2.5rem;
+      }
+
       &__heading {
             display: grid;
             row-gap: 1rem;
@@ -29,6 +39,16 @@
       &__workshops {
             padding: 6rem;
             padding-top: 8rem;
+
+            @include respond(phone-land) {
+                  padding: 3rem;
+                  padding-top: 5rem;
+            }
+
+            @include respond(phone) {
+                  padding: 1rem;
+                  padding-top: 4rem;
+            }
       }
 
       &__singleInfoCard {
@@ -39,6 +59,22 @@
             position: relative;
             margin: 8rem 0;
             border-radius: 2rem;
+
+            @include respond(tab-land) {
+                  grid-template-rows: repeat(2,min-content);
+                  grid-template-columns: 1fr;
+                  background-image: none !important;
+                  background-color: #E2E8F0;
+                  overflow: hidden;
+            }
+
+            @include respond(tab-port) {
+                  padding: 4rem;
+            }
+
+            @include respond(phone) {
+                  padding: 0rem;
+            }
 
             &:first-child {
                   margin-top: 0;
@@ -62,17 +98,56 @@
             transform: translateX(-50%);
             border-bottom-left-radius: 1rem;
             border-bottom-right-radius: 1rem;
+            text-align: center;
+
+            @include respond(tab-land) {
+                  left: 20%;
+                  right: 20%;
+                  transform: translateX(0);
+                  font-size: 2.3rem;
+            }
+
+            @include respond(tab-port) {
+                  left: 15%;
+                  right: 15%;
+                  font-size: 2rem;
+            }
+
+            @include respond(phone) {
+                  left: 0;
+                  right: 0;
+                  border-radius: 0;
+                  font-size: 1.6rem;
+            }
       }
 
       &__image {
             grid-row: 1 / span 1;
-            justify-self: center;
-            align-self: center;
             width: 100%;
             display: grid;
+            justify-items: center;
+            align-items: center;
+
+            @include respond(tab-land) {
+                  grid-row: 1 / span 1 !important;
+                  grid-column: 1 / -1 !important;
+                  padding: 4rem !important;
+                  margin-top: 4rem;
+                  background-color: #E2E8F0;
+            }
+
+            @include respond(tab-port) {
+                  margin-top: 2rem;
+            }
+
+            @include respond(phone) {
+                  margin-top: 7rem;
+            }
 
             &--img {
-                  justify-self: center;
+                  @include respond(desktop-medium) {
+                        width: 100% !important;
+                  }
             }
       }
 
@@ -84,6 +159,20 @@
             padding-left: 2rem;
             grid-template-rows: repeat(3,min-content);
             row-gap: 2rem;
+            margin-top: 2.5rem;
+
+            @include respond(tab-land) {
+                  grid-row: 2 / span 1 !important;
+                  grid-column: 1 / -1 !important;
+                  padding: 5rem !important;
+                  margin-top: 4rem;
+                  background-color: #EDF2F7;
+                  border-radius: 2rem;
+            }
+
+            @include respond(phone) {
+                  border-radius: 0;
+            }
       }
 
       &__about {
@@ -92,16 +181,38 @@
             line-height: 1.4;
             color: $color-grey-dark-3;
             font-weight: 400;
+
+            @include respond(desktop-small) {
+                  font-size: 2rem;
+            }
       }
 
       &__details {
             display: grid;
             align-items: center;
             row-gap: 2rem;
+
+            @include respond(desktop-medium) {
+                  grid-template-columns: repeat(2,1fr);
+                  row-gap: 1rem;
+                  margin-top: 2rem;
+            }
+
+            @include respond(tab-land) {
+                  grid-template-columns: 1fr;
+                  margin-top: 0rem;
+            }
+
+            @include respond(tab-port) {
+                  grid-template-columns: repeat(2,1fr);
+                  row-gap: 1rem;
+                  margin-top: 2rem;
+            }
       }
 
       &__detailsContainer {
-            display: flex;
+            display: grid;
+            grid-template-columns: min-content 1fr;
             padding: 1rem 0;
             align-items: center;
       }
@@ -117,6 +228,10 @@
             font-size: 2rem;
             color: $color-primary;
             font-weight: 600;
+
+            @include respond(desktop-small) {
+                  font-size: 1.5rem;
+            }
       }
 
       &__buttons {
@@ -125,6 +240,28 @@
             column-gap: 2.5rem;
             justify-self: center;
             margin-top: 1rem; 
+
+            @include respond(desktop-medium) {
+                  width: 100% !important;
+                  margin-top: 2rem;
+            }
+
+            @include respond(desktop-small) {
+                  grid-template-rows: repeat(2,1fr);
+                  grid-template-columns: 1fr;
+                  row-gap: 2rem;
+            }
+
+            @include respond(tab-land) {
+                  grid-template-rows: min-content;
+                  grid-template-columns: repeat(2,1fr);
+            }
+
+            @include respond(tab-port) {
+                  grid-template-rows: repeat(2,1fr);
+                  grid-template-columns: 1fr;
+                  row-gap: 2rem;
+            }
       }
 
       &__button {
@@ -138,6 +275,24 @@
                   background-color: $color-secondary;
                   grid-column: 1 / span 1;
                   text-decoration: none;
+
+                  @include respond(desktop-small) {
+                        grid-column: 1 / -1;
+                        grid-row: 1 / span 1;
+                        justify-self: center;
+                  }
+
+                  @include respond(tab-land) {
+                        grid-column: 1 / span 1;
+                        grid-row: 1 / span 1;
+                  }
+
+                  @include respond(tab-port) {
+                        grid-column: 1 / -1;
+                        grid-row: 1 / span 1;
+                        justify-self: center;
+                  }
+
                   &:hover {
                         background-color: $color-secondary-dark;
                   }
@@ -146,6 +301,24 @@
             &--bookNow {
                   background-color: $color-primary;
                   grid-column: 2 / span 1;
+
+                  @include respond(desktop-small) {
+                        grid-column: 1 / -1;
+                        grid-row: 2 / span 1;
+                        justify-self: center;
+                  }
+
+                  @include respond(tab-land) {
+                        grid-column: 2 / span 1;
+                        grid-row: 1 / span 1;
+                  }
+
+                  @include respond(tab-port) {
+                        grid-column: 1 / -1;
+                        grid-row: 2 / span 1;
+                        justify-self: center;
+                  }
+
                   &:hover {
                         background-color: $color-primary-dark;
                   }

@@ -1,13 +1,12 @@
 import web from '../assets/web_dev.png';
 import ai from '../assets/ai.png';
-import arduino from '../assets/arduino_workshop.jfif';
 import crypt from '../assets/homePage_crypto.jpg';
 import network from '../assets/homePage_network.jpg';
 import iot from '../assets/homePage_iot.jpg';
-
+import react from '../assets/homePage_react.png';
 import webdev from '../assets/web_development.svg';
 import ai_workshop from '../assets/artificial_intelligence.svg';
-import arduino_workshop from '../assets/circuit.svg';
+import react_workshop from '../assets/react.svg';
 import crypt_workshop from '../assets/crypt.svg';
 import iot_workshop from '../assets/iot.svg';
 import security_workshop from '../assets/security.svg';
@@ -41,32 +40,6 @@ export default {
                   ]
             },
             {
-                  id:'arduino',
-                  name:'Arduino',
-                  details:'Are you new to robotics and arduino ? Don\'t know where to start with ? Well then,this workshop is for you.',
-                  image:arduino, 
-                  price:'849',
-                  date:'Jan 13',
-                  time:'10.00 AM',
-                  venue:'VLSI Lab',
-                  infoDetails:'Laoreet id donec ultrices tincidunt arcu. Mauris rhoncus aenean vel elit scelerisque mauris. Metus dictum at tempor commodo ullamcorper. At consectetur lorem donec massa sapien faucibus. Neque convallis a cras semper auctor neque. Turpis in eu mi bibendum. Adipiscing elit duis tristique sollicitudin nibh sit. ',
-                  infoImage:arduino_workshop,
-                  imageWidth:'90%',
-                  agenda:[
-                        'Basics of Robotics',
-                        'Basics of C/C++ Programming',
-                        'Overview of Arduino Board',
-                        'Basic Programming on arduino',
-                        'Intefacing several sensors',
-                        'Implementing a Robotic Module'
-                  ],
-                  requirements:[
-                        'Laptop',
-                        'Arduino IDE (Software)',
-                        'C/C++ (Optional)'
-                  ]
-            },
-            {
                   id:'artificial-intelligence',
                   name:'Artificial Intelligence',
                   details:'Do you keep hearing about Artificial Intelligence? What\'s all the fuss about it ? Come find out..!',
@@ -92,6 +65,7 @@ export default {
             {
                   id:'cryptography-techniques',
                   name:'Cryptography Techniques Using Cryptool',
+                  details:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio nec.',
                   image:crypt,
                   price:'749',
                   date:'Jan 13',
@@ -117,8 +91,35 @@ export default {
                   ]
             },
             {
+                  id:'react',
+                  name:'React',
+                  details:'Front End Made Easy.Come and learn React Js.',
+                  image:react, 
+                  price:'849',
+                  date:'Jan 13',
+                  time:'10.00 AM',
+                  venue:'VLSI Lab',
+                  infoDetails:'Laoreet id donec ultrices tincidunt arcu. Mauris rhoncus aenean vel elit scelerisque mauris. Metus dictum at tempor commodo ullamcorper. At consectetur lorem donec massa sapien faucibus. Neque convallis a cras semper auctor neque. Turpis in eu mi bibendum. Adipiscing elit duis tristique sollicitudin nibh sit. ',
+                  infoImage:react_workshop,
+                  imageWidth:'90%',
+                  agenda:[
+                        'Risus in hendrerit gravida rutrum quisque.',
+                        'Elit pellentesque habitant morbi tristique senectus et netus',
+                        'Sed ullamcorper morbi tincidunt ornare massa eget.',
+                        'Quam pellentesque nec nam aliquam sem et tortor. Consectetur purus ut faucibus pulvinar elementum integer. ',
+                        'Gravida rutrum quisque non tellus orci ac auctor augue.',
+                        'Vel risus commodo viverra maecenas accumsan lacus vel.'
+                  ],
+                  requirements:[
+                        'Nisl pretium fusce id velit ut.',
+                        'Ut sem nulla pharetra diam sit amet.',
+                        'Sollicitudin aliquam ultrices sagittis.'
+                  ]
+            },
+            {
                   id:'internet-of-things',
                   name:'Internet Of Things',
+                  details:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio nec.',
                   image:iot,
                   price:'999',
                   date:'Jan 13',
@@ -144,6 +145,7 @@ export default {
             {
                   id:'network-security',
                   name:'Network Security By Nokia', 
+                  details:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur distinctio nec.',
                   image:network,
                   price:'749',
                   date:'Jan 13',
