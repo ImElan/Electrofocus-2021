@@ -6,6 +6,24 @@
       grid-template-columns: 1fr;
       row-gap: 2rem;
 
+      @include respond(tab-land) {
+            padding: 4.5rem;  
+      }
+
+      @include respond(tab-port) {
+            padding: 2.5rem;
+      }
+
+      @include respond(phone-land) {
+            grid-column: full-start / full-end;
+            padding: 2rem;
+      }
+
+      @include respond(phone) {
+            padding: 1rem;
+      }
+
+
       &__heading {
             justify-self: center;
       }
@@ -23,6 +41,11 @@
             align-items: center;
             justify-content: center;
             padding: 2rem 0;
+
+            @include respond(phone-land) {
+                  padding: 0 0 2rem 0;
+                  margin-top: -4rem;
+            }
       }
 
       &__contactText {
