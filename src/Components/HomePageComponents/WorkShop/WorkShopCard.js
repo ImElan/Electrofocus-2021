@@ -1,9 +1,10 @@
 import React,{Component} from 'react';
 import WorkShopCardDetails from './WorkShopCardDetails';
+import { NavLink } from 'react-router-dom';
 
 class WorkShopCard extends Component {
       render() {
-            const {name,details,image,price,date,time,venue} = this.props;
+            const {name,details,image,price,date,time,venue,id} = this.props;
             return(
                   <div className='workshopCard'>
                         <img className='workshopCard__image' src={image} alt={name} />
@@ -13,7 +14,13 @@ class WorkShopCard extends Component {
                         <WorkShopCardDetails info={time} icon='clock' />
                         <WorkShopCardDetails info={price} icon='rupee-indian' />
                         <WorkShopCardDetails info={venue} icon='pin' />
-                        <button className='workshopCard__button'>More Details</button>
+                        <NavLink
+                              exact
+                              to={`/workshops/${id}`}
+                              className='workshopCard__button'
+                        >
+                              More Details
+                        </NavLink>
                   </div>
             )
       }
