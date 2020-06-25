@@ -126,7 +126,8 @@
                         padding: 0.9rem 3.2rem;
                         text-decoration: none;
                         letter-spacing: 1.2px;
-                        background-color: #2EBC4F;
+                        // background-color: #2EBC4F;
+                        background-color: $color-primary;
                         border-radius: 4px;
                         transition: all 0.2s;
                         margin-right: 0.5rem;
@@ -139,7 +140,8 @@
                   }
 
                   &:hover {
-                        background-color: #28A745;
+                        // background-color: #28A745;
+                        background-color: $color-primary-dark;
                   }
             }
 

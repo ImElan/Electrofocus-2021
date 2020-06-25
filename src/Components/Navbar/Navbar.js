@@ -33,7 +33,7 @@ class Navbar extends Component {
             const { items } = navbar;
             const { navOpen } = this.state;
             return(
-                  <section className='navbar'>
+                  <nav className='navbar'>
                         <div className={`navbar__btn ${navOpen && 'open'}`} 
                               onClick={this.handleNavBtnClick}
                         >
@@ -57,7 +57,7 @@ class Navbar extends Component {
                                     </NavLink>
                               </li>
                         </ul>
-                  </section>
+                  </nav>
             )
       }
 }

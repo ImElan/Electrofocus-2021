@@ -6,7 +6,7 @@ import social_media from '../../assets/social_sprite.svg';
 class Footer extends Component {
       render() {
             return(
-                  <section className='footer'>
+                  <footer className='footer'>
                         <h2 className='heading--2 heading--2-light'>ElectroFocus</h2>
                         <ul className='footer__list'>
                               <NavLink 
@@ -52,7 +52,7 @@ class Footer extends Component {
                               </a>
                         </div>
                         <p className='footer__copyright'>&copy; Copyright 2020, ElectroFocus Inc. All Rights Reserved.</p>
-                  </section>
+                  </footer>
             )
       }
 }

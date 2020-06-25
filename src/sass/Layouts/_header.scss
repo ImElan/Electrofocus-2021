@@ -53,6 +53,15 @@
                               background-color: $color-secondary-dark;
                         }
                   }
+
+                  &_primary {
+                        background-color: $color-primary;
+                        transition: all 0.2s;
+      
+                        &:hover {
+                              background-color: $color-primary-dark;
+                        }
+                  }
             }
       }
 
